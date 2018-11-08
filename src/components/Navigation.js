@@ -119,7 +119,7 @@ class Navigation extends Component {
                                         </li>
 
                                         <li className="tb-megamenu-item level-2 mega">
-                                          <a href="/Welcome" title="Welcome">Welcome</a>
+                                          <a href="/About" title="About">About Us</a>
                                         </li>
 
                                         <li className="tb-megamenu-item level-2 mega">
@@ -133,7 +133,9 @@ class Navigation extends Component {
                             </div>
                           </li>
 
-
+                          <li className="tb-megamenu-item level-1 mega">
+                            <a href="/Events" title="Contact Us">Events</a>
+                          </li>
 
                           <li className="tb-megamenu-item level-1 mega">
                             <a href="/ContactUs" title="Contact Us">Contact Us</a>

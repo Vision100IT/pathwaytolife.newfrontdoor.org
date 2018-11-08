@@ -1,12 +1,7 @@
 /* eslint-disable */
 import React, { Component } from 'react';
 
-import Person from '../models/Person';
-import Male from '../../assets/img/people/Male.png';
-import Female from '../../assets/img/people/Female.png';
-
-class OurPeople extends Component {
-
+class About extends Component {
   render() {
     return (
       <section>
@@ -15,7 +10,7 @@ class OurPeople extends Component {
             <div className="row">
               <div id="top-content-left-region" className="top-content-left col-xs-12 col-md-6 text-center-sm">
                 <div id="page-title-block" className="page-title block">
-                  <h1>Our People</h1>
+                  <h1>About</h1>
                 </div>
               </div>
 
@@ -24,7 +19,7 @@ class OurPeople extends Component {
                   <div className="breadcrumbs">
                     <a href="/">Home</a>
                     <span className="delimiter">›</span>
-                    <span title="" className="nolink">Visit Us</span>
+                    <span title="" className="nolink">About</span>
                   </div>
                 </div>
               </div>
@@ -40,35 +35,13 @@ class OurPeople extends Component {
                     <div className="content">
                       <div className="node node-page clearfix">
                         <div className="content">
-                          <div className="row">
-                            <div className="col-md-12">
-                              <h2 className="text-center">Elders</h2>
 
-                              <Person name="Elder 1" image={Male} title="Pastor" />
-                              <Person name="Elder 2" image={Male} title="Elder" />
-                              <Person name="Elder 3" image={Male} title="Elder" />
-                              <Person name="Elder 4" image={Male} title="Elder" />
-
-                            </div>
-
-                            <div className="row">
-                              <div className="col-md-12">
-                                <h2 className=" text-center">Deacons</h2>
-
-                                <Person name="Deacon 1" image={Male} title="Deacon" />
-                                <Person name="Deacon 2" image={Male} title="Deacon" />
-                                <Person name="Deacon 3" image={Male} title="Deacon" />
-
-                              </div>
-
-
-                            </div>
-
-
-
-
-                          </div>
-
+                           <p>Pathway to Life is passionate about <b>ENCOURAGING</b> people to stay connected in Christ through <b>worship, prayer</b> and participation in <b>fellowship.</b></p>
+                              <p>At Pathway we believe in <b>EMPOWERING</b> people with knowledge through <b>sound biblical teaching</b> with a focus on <b>discipleship</b> and <b>service</b> so that individuals can discover, grow and lead with the gifts God has given them.</p>
+                              <p>Above all, Pathway to Life is about sharing the gospel message through purposeful <b>evangelism</b> and <b>IGNITING</b> people for Christ with a passion to search out the way to life.</p>
+                              <p>Pathway is committed to be consistent in reviewing and regenerating our church to meet the needs of our community with the vision of continually winning others for Christ.</p>
+                              <br />
+                              <p>We are a Christian Reformed Church, part of the <a href="http://www.crca.org.au/" target="_blank" rel="noreferrer noopener">Christian Reformed Churches of Australia</a>.</p>
                         </div>
 
 
@@ -92,4 +65,4 @@ class OurPeople extends Component {
   }
 }
 
-export default OurPeople;
+export default About;

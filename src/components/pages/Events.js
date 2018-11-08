@@ -1,12 +1,7 @@
 /* eslint-disable */
 import React, { Component } from 'react';
 
-import Person from '../models/Person';
-import Male from '../../assets/img/people/Male.png';
-import Female from '../../assets/img/people/Female.png';
-
-class OurPeople extends Component {
-
+class Events extends Component {
   render() {
     return (
       <section>
@@ -15,7 +10,7 @@ class OurPeople extends Component {
             <div className="row">
               <div id="top-content-left-region" className="top-content-left col-xs-12 col-md-6 text-center-sm">
                 <div id="page-title-block" className="page-title block">
-                  <h1>Our People</h1>
+                  <h1>Events</h1>
                 </div>
               </div>
 
@@ -24,7 +19,7 @@ class OurPeople extends Component {
                   <div className="breadcrumbs">
                     <a href="/">Home</a>
                     <span className="delimiter">›</span>
-                    <span title="" className="nolink">Visit Us</span>
+                    <span title="" className="nolink">Events</span>
                   </div>
                 </div>
               </div>
@@ -40,35 +35,7 @@ class OurPeople extends Component {
                     <div className="content">
                       <div className="node node-page clearfix">
                         <div className="content">
-                          <div className="row">
-                            <div className="col-md-12">
-                              <h2 className="text-center">Elders</h2>
-
-                              <Person name="Elder 1" image={Male} title="Pastor" />
-                              <Person name="Elder 2" image={Male} title="Elder" />
-                              <Person name="Elder 3" image={Male} title="Elder" />
-                              <Person name="Elder 4" image={Male} title="Elder" />
-
-                            </div>
-
-                            <div className="row">
-                              <div className="col-md-12">
-                                <h2 className=" text-center">Deacons</h2>
-
-                                <Person name="Deacon 1" image={Male} title="Deacon" />
-                                <Person name="Deacon 2" image={Male} title="Deacon" />
-                                <Person name="Deacon 3" image={Male} title="Deacon" />
-
-                              </div>
-
-
-                            </div>
-
-
-
-
-                          </div>
-
+                            Sorry this page is still under construction.  
                         </div>
 
 
@@ -92,4 +59,4 @@ class OurPeople extends Component {
   }
 }
 
-export default OurPeople;
+export default Events;
