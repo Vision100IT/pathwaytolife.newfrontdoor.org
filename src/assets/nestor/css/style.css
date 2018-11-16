@@ -88,7 +88,8 @@
 /*************************************************************/
 
 body {
-  color: #777;
+  /*color: #777;*/
+  color: #444;
   font-size: 1.6em;
   line-height: 1.6em;
   font-family: 'Lato', sans-serif;
@@ -3117,7 +3118,7 @@ label {
 
 /* Mega Menu Items */
 .tb-megamenu { background-color: transparent !important; padding-top: 62px; }
-.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover { background-color: white;i color: #c2b49a; } 
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover { background-color: white; color: #c2b49a; } 
 .tb-megamenu .nav li.dropdown.active > .dropdown-toggle { background-color: white; color: #c2b49a; }
 .tb-megamenu .nav li.dropdown.open > .dropdown-toggle { color: #c2b49a; }
 .tb-megamenu .nav { float: right; }
@@ -3136,7 +3137,7 @@ label {
 
 .tb-megamenu .dropdown { position: static; }
 .tb-megamenu .tb-megamenu-submenu { left: 0; right: 0; width: 100% !important; }
-.tb-megamenu-submenu .tb-megamenu-block .block {  background-color: #c2b49a; color: white; padding: 10px 20px; margin-top: 5px; }
+.tb-megamenu-submenu .tb-megamenu-block .block {  background-color: #428bca; color: white; padding: 10px 20px; margin-top: 5px; }
 .tb-megamenu-submenu .tb-megamenu-block .block h3 { color: white; font-size: 18px; line-height: 24px; }
 table.views-table { width: 100%; }
 .tb-megamenu .row-fluid .span3 { width: 23%; margin-left: 0; }

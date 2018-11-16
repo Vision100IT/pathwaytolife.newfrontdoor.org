@@ -1,5 +1,7 @@
 /* eslint-disable */
 import React, { Component } from 'react';
+import ptlLogo from '../../assets/img/logo.png'
+import crcaLogo from '../../assets/img/CRCA-logo.png'
 
 
 class Welcome extends Component {
@@ -26,20 +28,39 @@ class Welcome extends Component {
 
 
 
-                              <p style={{ fontSize: "27px", color: "#BB9020" }}>
-                                <b>ENCOURAGE &nbsp;|&nbsp; EMPOWER &nbsp;|&nbsp; IGNITE</b>
-                              </p>
-                              <p><b>ENCOURAGE</b> people in Christ through: <b>Worship, Prayer</b> and <b>Fellowship</b></p>
-                              <p><b>EMPOWER</b> people with Christ through: <b>Sound Biblical Teaching, Discipleship</b> and <b>Service</b></p>
-                              <p><b>IGNITE</b> people for Christ through: <b>Evangelism</b></p>                             
+                              <div className="row">
+                                <div className="col-md-3 col-xs-12">
+                                  <img className="img img-responsive" src={ptlLogo} alt="logo" />
+                                </div>
+                                <div className="col-md-9 col-xs-12">
+                                  <p>PATHWAY TO LIFE is passionate about...</p>
+                                  <p><b>ENCOURAGING</b> people in Christ through: <b>Worship, Prayer</b> and <b>Fellowship</b></p>
+                                  <p><b>EMPOWERING</b> people with Christ through: <b>Sound Biblical Teaching, Discipleship</b> and <b>Service</b></p>
+                                  <p><b>IGNITING</b> people for Christ through: <b>Evangelism</b></p>
 
+                                  PATHWAY TO LIFE is part of the <em><a href="https://crca.org.au/" target="_blank" rel="noreferrer noopener">Christian Reformed Churches of Australia</a></em> <img style={{ paddingLeft: "10px", paddingTop: "10px" }} src={crcaLogo} alt="" />
+
+                                </div>
+                                {/*<div className="clearfix"></div>
+                                <div className="row">
+                                 <hr style={{ borderTop: "6px solid #0054a1" }} />
+                                  <p className="text-center" style={{ fontSize: "27px" }}>
+                                    <b>ENCOURAGE &nbsp;&nbsp;&nbsp; EMPOWER &nbsp;&nbsp;&nbsp; IGNITE</b>
+                                  </p>
+                                </div>*/}
+
+
+                              </div>
 
                             </div>
-                          </div></div>  </div>
+                          </div>
+                          </div>
+                        </div>
 
                       </div>
                     </div>
-                  </div>  </div>
+                  </div>
+                </div>
 
               </div> {/* /main-content-region */}
             </div> {/* /row */}

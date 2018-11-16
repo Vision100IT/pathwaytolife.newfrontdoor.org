@@ -82,7 +82,7 @@ class Navigation extends Component {
                                         </li>
 
                                         <li className="tb-megamenu-item level-2 mega">
-                                          <a href="/Services" >Morning Service</a>
+                                          <a href="/SundayMorning" >Morning Service</a>
                                         </li>
 
                                         <li className="tb-megamenu-item level-2 mega">
@@ -104,7 +104,7 @@ class Navigation extends Component {
                                         </li>
 
                                         <li className="tb-megamenu-item level-2 mega">
-                                          <a href="/PathwayContacts" >Pathway Contacts</a>
+                                          <a href="/PathwayContacts" >Pathway Contacts & Information</a>
                                         </li>
 
                                       </ul>

@@ -38,7 +38,7 @@
 /*************************************************************/
 
 a {
-  color: #2ac5ee;
+  color: #428bca;
 }
 
 
@@ -271,11 +271,11 @@ a {
 .text-color-light .social-networks-footer a:hover,
 .text-color-light .social-networks-footer a:focus,
 .text-color-light .social-networks-footer a:active {
-  color: #2ac5ee;
+  color: #428bca;
 }
 
 /** Text Colors **/
-.text-color-theme      { color: #2ac5ee; }
+.text-color-theme      { color: #428bca; }
 
 /** Background Colors **/
-.bg-color-theme        { background-color: #2ac5ee; }
+.bg-color-theme        { background-color: #428bca; }

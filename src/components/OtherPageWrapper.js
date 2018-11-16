@@ -12,6 +12,9 @@ import SermonPage from './pages/SermonPage';
 import OurPeople from './pages/OurPeople';
 import About from './pages/About';
 import Events from './pages/Events';
+import PathwayContacts from './pages/PathwayContacts';
+import MorningService from './pages/MorningService';
+import MinistryPrograms from './pages/MinistryPrograms';
 
 
 import ContactUs from './pages/ContactUs';
@@ -30,6 +33,9 @@ class OtherPageWrapper extends Component {
           <Route exact path="/OurPeople" component={OurPeople} />
           <Route exact path="/ContactUs" component={ContactUs} />
           <Route exact path="/Events" component={Events} />
+          <Route exact path="/PathwayContacts" component={PathwayContacts} />
+          <Route exact path="/SundayMorning" component={MorningService} />
+          <Route exact path="/MinistryPrograms" component={MinistryPrograms} />
 
           <Route path="/*" component={OtherPageContent} />
         </Switch>

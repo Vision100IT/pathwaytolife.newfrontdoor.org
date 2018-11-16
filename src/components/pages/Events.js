@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 
 class Events extends Component {
@@ -34,23 +33,16 @@ class Events extends Component {
                   <div id="block-system-main" className="block block-system">
                     <div className="content">
                       <div className="node node-page clearfix">
+
                         <div className="content">
-                            Sorry this page is still under construction.  
+                          This page is still under construction.
                         </div>
-
-
 
                       </div>
                     </div>
-                  </div>  </div>
-
-
-
+                  </div>
+                </div>
               </div>
-
-
-
-
             </div>
           </div>
         </div>

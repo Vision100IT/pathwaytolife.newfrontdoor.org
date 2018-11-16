@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 
 class Footer extends Component {
@@ -21,7 +20,7 @@ class Footer extends Component {
                       <div className="footer-address text-center">
                         <i className="icon ion-ios7-location-outline size-32 margin-bottom-20"></i>
                         <p><a href="https://goo.gl/maps/phw9emfUYm52">Pathway to Life</a><br />
-                          9:30am Sunday<br/>
+                          9:30am Sunday<br />
                           20-22 Nicholls St,<br />
                           Devonport, Tasmania 7310</p>
                       </div> {/* /footer-address */}  </div>
