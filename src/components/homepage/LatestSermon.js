@@ -41,7 +41,7 @@ class LatestSermon extends Component {
                     </div>
                   </div>
 
-                  <span>        <div><a href={sermon.node_path}>{decode(sermon.node_title)}</a></div>  </span>
+                  <span>        <div><a href={`/sermon/${sermon.nid}`}>{sermon.node_title ? decode(sermon.node_title) : 'Untitled'}</a></div>  </span>
                   <span>        <div>{decode(sermon.preacher)}</div>  </span>
                   <span className="views-field views-field-field-sermon">
                     <span className="field-content">
