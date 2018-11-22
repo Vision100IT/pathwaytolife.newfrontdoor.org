@@ -1,18 +1,17 @@
 @media (max-width: 767px) {
   
     .nestor-main-menu .navbar-toggle {
-      border: 1px solid #2588c9 !important;
-      background: #91c2e3 !important;
-      color: #000 !important;
+      border: 1px solid #00579f !important;
+      background: #00579f !important;
+      color: #fff !important;
     }
 }
 
 /*Button color changes*/
-/*
 .sermon-search-button {
     padding: 2px 35px !important;
-    border-color: #65AAD5;
-    color: #65AAD5;
+    border-color: #00579f;
+    color: #00579f;
   }
   
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
@@ -23,7 +22,6 @@
   .btn-primary{
     border-color: #2588c9;
   }
-*/
 
 /*Fix for overflowing text on gmaps*/
 .gm-style-iw {
@@ -41,4 +39,9 @@
 .ministryImg {
   max-height: 160px;
   max-width: 250px;
+}
+
+.latestSermon-img{
+  width: 100% !important;
+  height: 100% !important;
 }

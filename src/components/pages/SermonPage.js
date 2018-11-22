@@ -4,7 +4,7 @@ import _ from 'lodash';
 import AudioPlayer from 'react-responsive-audio-player';
 import { decode } from 'he'
 
-import { getFromDrupalAPI, searchDrupalSermons } from '../../utils/fetchJSON';
+import { getFromDrupalAPI } from '../../utils/fetchJSON';
 
 import '../../assets/css/audioplayer.css'
 

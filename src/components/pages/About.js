@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import crcaLogo from '../../assets/img/CRCA-logo.png';
+import childSafeImg from '../../assets/img/childsafe.jpg';
 
 class About extends Component {
   render() {
@@ -40,15 +41,37 @@ class About extends Component {
                           <p>At Pathway we believe in <b>EMPOWERING</b> people with knowledge through <b>sound biblical teaching</b> with a focus on <b>discipleship</b> and <b>service</b> so that individuals can discover, grow and lead with the gifts God has given them.</p>
                           <p>Above all, Pathway to Life is about sharing the gospel message through purposeful <b>evangelism</b> and <b>IGNITING</b> people for Christ with a passion to search out the way to life.</p>
                           <p>Pathway is committed to be consistent in reviewing and regenerating our church to meet the needs of our community with the vision of continually winning others for Christ.</p>
-                          <br />
-                          <p>We are a Christian Reformed Church, part of the <em><a href="https://crca.org.au/" target="_blank" rel="noreferrer noopener">Christian Reformed Churches of Australia</a></em> <img style={{ paddingLeft: "10px", paddingTop: "10px" }} src={crcaLogo} alt="" /></p>
                         </div>
 
+                        <div className="row">
+                          <div className="col-md-12 col-xs-12 padding-top-30">
+                            We are a Christian Reformed Church, part of the <em><a href="https://crca.org.au/" target="_blank" rel="noreferrer noopener">Christian Reformed Churches of Australia</a></em> <img style={{ paddingLeft: "15px", paddingTop: "15px" }} src={crcaLogo} alt="" />
+                          </div>
+                        </div>
 
+                        <div className="row">
+                          <div className="col-md-12 col-xs-12 padding-top-30">
+                            We value the safety of all children so we have implemented the <a href="https://www.childsafe.org.au/" target="_blank" rel="noopener noreferrer">ChildSafe</a> system for ensuring our kids activities are safe for everyone.
 
+                            <a href="https://www.childsafe.org.au/" target="_blank" rel="noopener noreferrer"><img style={{ paddingLeft: "15px", paddingTop: "15px", maxWidth: "210px" }} src={childSafeImg} alt="" /> </a>
+                          </div>
+                        </div>
+
+                        <div className="row padding-top-30">
+                          <div className="col-xs-12">
+                            <h4>SUPPORTING PATHWAY</h4>
+                            To make a donation to Pathway ministries and missions you can direct deposit it to: <br /><br />
+                            <ul className="no-list-style">
+                              <li><strong>Account:</strong> Pathway to Life</li>
+                              <li><strong>BSB:</strong> 037 604</li>
+                              <li><strong>Account Number:</strong> 293165</li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>  </div>
+                  </div>
+                </div>
 
 
 

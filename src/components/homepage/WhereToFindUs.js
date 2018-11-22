@@ -12,7 +12,7 @@ class WhereToFindUs extends Component {
             <div className="block block-block">
               <h2 >Where to Find Us</h2>
               <div className="content">
-                <GoogleMap id="map_canvas" height="270px" /><br/>
+                <GoogleMap id="map_canvas" height="360px" /><br />
                 <div><a href="https://goo.gl/maps/phw9emfUYm52">Pathway To Life</a></div>
                 <div>9:30am Sunday</div>
                 <div>20-22 Nicholls St</div>

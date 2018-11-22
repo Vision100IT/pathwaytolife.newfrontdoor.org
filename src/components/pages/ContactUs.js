@@ -135,34 +135,36 @@ class ContactUs extends Component {
 
 
                   <div class="content">
-                    If you have any questions about Pathway to Life, want to visit us or would like more information on how to get involved, please contact us - we would love to hear from you.  </div>
+                    If you have any questions about Pathway to Life, want to visit us or would like more information on how to get involved, please contact us - we would love to hear from you.  <br /><br />
+
+                    <em>A directory of specific Pathway to Life contacts and other information can be found <a href="/PathwayContacts">here.</a></em>
+                  </div>
                 </div>
 
 
-                <div id="block-block-45" class="block block-block">
 
+                <div class="content">
+                  <div class="contacts">
+                    <div class="row">
 
-                  <div class="content">
-                    <div class="contacts">
-                      <div class="row">
-
-                        <div class="col-xs-12 col-sm-6">
-                          <h5>Address</h5>
-                          <p>Come visit us on Sundays @ 9:30am:</p>
-                          <p>
-                            Pathway to Life<br />
-                            20-22 Nicholls St<br />
-                            Devonport, Tasmania 7310
+                      <div class="col-xs-12 col-sm-6">
+                        <h5>Address</h5>
+                        <p>Come visit us on Sundays @ 9:30am:</p>
+                        <p>
+                          Pathway to Life<br />
+                          20-22 Nicholls St<br />
+                          Devonport, Tasmania 7310
                           </p>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-6 margin-top-xs-40">
-                          <h5>Contact Us</h5>
-                          <p><b>Facebook:</b> &nbsp;<a href="https://www.facebook.com/PathwaytoLifeChurch/" target="_blank" rel="noopener noreferrer">/PathwaytoLifeChurch</a><br />
-                            <b>Email:</b>&nbsp;<a href="mailto:office@pathwaytolife.org.au">office@pathwaytolife.org.au</a></p>
-                        </div>
-
                       </div>
+
+                      <div class="col-xs-12 col-sm-6 margin-top-xs-40">
+                        <h5>Contact Us</h5>
+                        <p>
+                          <b>Facebook:</b> &nbsp;<a href="https://www.facebook.com/PathwaytoLifeChurch/" target="_blank" rel="noopener noreferrer">/PathwaytoLifeChurch</a><br />
+                          <b>Email:</b>&nbsp;<a href="mailto:office@pathwaytolife.org.au">office@pathwaytolife.org.au</a>
+                        </p>
+                      </div>
+
                     </div>
                   </div>
                 </div>

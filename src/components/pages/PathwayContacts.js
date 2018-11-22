@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import childSafeImg from '../../assets/img/childsafe.jpg';
-import pathwayHouseImg from '../../assets/img/pathwayHouseLogo.png';
 
 class PathwayContacts extends Component {
     render() {
@@ -119,55 +117,6 @@ class PathwayContacts extends Component {
                                                                 <li><a href="mailto:jodyanion@gmail.com">jodyanion@gmail.com</a></li>
                                                             </ul>
                                                         </div>
-
-                                                    </div>
-                                                    <br />
-                                                    <div className="row">
-                                                        <div className="row">
-                                                            <h4>CHILDSAFE</h4>
-                                                            <div className="col-md-2 col-xs-12">
-                                                                <a href="https://www.childsafe.org.au/" target="_blank" rel="noopener noreferrer"><img className="img img-responsive" src={childSafeImg} alt="" /></a>
-                                                            </div>
-                                                            <div className="col-md-10 col-xs-12 padding-top-15">
-                                                                We value the safety of all children so we have implemented the <a href="https://www.childsafe.org.au/" target="_blank" rel="noopener noreferrer">ChildSafe</a> system for ensuring our kids activities are safe for everyone.
-                                                            </div>
-                                                        </div>
-                                                        <br />
-                                                        <div className="row padding-top-15">
-                                                            <h4>FACILITIES</h4>
-                                                            <div className="col-md-9 col-xs-12">
-                                                                <div className="col-md-12 col-xs-12">
-                                                                    Our facilities are available for use when suitable; chapel, hall, kitchen, Pathway House.
-                                                                </div>
-                                                                <div className="col-md-12 col-xs-12 padding-top-30">
-                                                                    <img src={pathwayHouseImg} alt="" align="left" className="img img-responsive" />
-                                                                    <p>Pathway House is an associated ministry of Pathway to Life.</p>
-                                                                    <p>The facility currently hosts education and allied health professionals.</p>
-                                                                    <p>Pathway House seeks to support people in the community, with a particular focus on people living with an Autism Spectrum Disorder (ASD).</p>
-
-                                                                    <h4>Contact Person</h4>
-                                                                    Kristine Bull
-                                                                <ul className="no-list-style">
-                                                                        <li>0437 225 767</li>
-                                                                        <li><a href="mailto:kristne_tas@yahoo.com.au">kristne_tas@yahoo.com.au</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-
-
-                                                            <div className="col-md-3 col-xs-12">
-                                                                <h4>SUPPORTING PATHWAY</h4>
-                                                                To make a donation to Pathway ministries and missions you can direct deposit it to: <br /><br />
-                                                                Account: Pathway to Life <br />
-                                                                BSB: 037 604<br />
-                                                                Account Number: 293165
-                                                            </div>
-                                                            <div className="clearfix"></div>
-
-
-
-                                                        </div>
-
 
                                                     </div>
                                                 </div>

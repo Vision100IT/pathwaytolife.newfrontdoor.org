@@ -25,7 +25,7 @@ class LatestSermon extends Component {
   render() {
     var sermonDetails;
     if (!this.state.latestSermon) {
-      sermonDetails = <div>Currently unavailable.</div>
+      sermonDetails = <div>Loading...</div>
     }
     else {
       sermonDetails = _.map(this.state.latestSermon, (sermon) => {
@@ -45,9 +45,6 @@ class LatestSermon extends Component {
                   <span>        <div>{decode(sermon.preacher)}</div>  </span>
                   <span className="views-field views-field-field-sermon">
                     <span className="field-content">
-                      {/*<div className="mediaelement-audio">
-                      <audio  src={sermon.url} className="mediaelement-formatter-identifier-1522977696-0" controls="controls" ></audio>
-                    </div>*/}
                       <AudioPlayer playlist={[{ url: sermon.url }]} controls={['playpause', 'spacer', 'progress']} />
                     </span>
                   </span>
@@ -68,7 +65,7 @@ class LatestSermon extends Component {
     return (
       <section>
         <div className="col-md-4 col-xs-12">  <div className="region region-content-2-1">
-          <div className="block block-views text-center">
+          <div className="block block-views">
             <h2>Latest Sermon</h2>
             {sermonDetails}
           </div>

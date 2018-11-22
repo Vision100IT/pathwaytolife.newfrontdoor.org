@@ -31,10 +31,12 @@ class Navigation extends Component {
                       <div className="collapse navbar-collapse navbar-ex1-collapse">
                         <ul className="nav navbar-nav navbar-right">
                           <li className="active"><a href="/" title="" className="active">Home</a></li>
-                          <li><a href="#" title="">Visit us @ 9:30am Sundays</a></li>
+                          <li><a href="/SundayMorning" title="">Visit us @ 9:30am Sundays</a></li>
+                          <li><a href="/About" title="">About</a></li>
                           <li><a href="/Sermons" title="">Sermons</a></li>
+                          <li><a href="/MinistryPrograms" title="">Ministries</a></li>
+                          {/*<li><a href="/Events" title="">Events</a></li>*/}
                           <li><a href="/ContactUs" title="">Contact Us</a></li>
-                          <li><a href="#" title="">Find Out What&#039;s On</a></li>
                         </ul>
                       </div> {/* /navbar-collapse */}
                     </nav>
@@ -46,96 +48,26 @@ class Navigation extends Component {
 
                   <div className="content">
                     <div className="tb-megamenu tb-megamenu-main-menu">
-                      <button data-target=".nav-collapse" data-toggle="collapse" className="btn btn-navbar tb-megamenu-button" type="button">
-                        <i className="fa fa-reorder"></i>
-                      </button>
                       <div className="nav-collapse  always-show">
                         <ul className="tb-megamenu-nav nav level-0 items-5">
-                          <li className="tb-megamenu-item level-1 mega dropdown">
-                            <a href="javascript:void(0);" className="dropdown-toggle" title="Visit Us">
-
-                              Visit Us         <span className="caret"></span>
-                            </a>
-                            <div style={{ width: "750px" }} className="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
-                              <div className="mega-dropdown-inner">
-                                <div className="tb-megamenu-row row-fluid">
-                                  <div className="tb-megamenu-column span3  mega-col-nav">
-                                    <div className="tb-megamenu-column-inner mega-inner clearfix">
-                                      <div className="tb-megamenu-block tb-block tb-megamenu-block">
-                                        <div className="block-inner">
-
-                                          <div className="block block-block">
-
-
-                                            <div className="content">
-                                              <h3>Welcome to Pathway to Life...</h3>  </div>
-                                          </div>  </div>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div className="tb-megamenu-column span3  mega-col-nav">
-                                    <div className="tb-megamenu-column-inner mega-inner clearfix">
-                                      <ul className="tb-megamenu-subnav mega-nav level-1 items-4">
-                                        <li className="tb-megamenu-item level-2 mega">
-                                          <a href="#" title="Sundays">Sundays</a>
-                                        </li>
-
-                                        <li className="tb-megamenu-item level-2 mega">
-                                          <a href="/SundayMorning" >Morning Service</a>
-                                        </li>
-
-                                        <li className="tb-megamenu-item level-2 mega">
-                                          <a href="/Sermons" >Sermons</a>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-
-                                  <div className="tb-megamenu-column span3  mega-col-nav">
-                                    <div className="tb-megamenu-column-inner mega-inner clearfix">
-                                      <ul className="tb-megamenu-subnav mega-nav level-1 items-4">
-                                        <li className="tb-megamenu-item level-2 mega">
-                                          <a href="#" title="Community Life">Community Life</a>
-                                        </li>
-
-                                        <li className="tb-megamenu-item level-2 mega">
-                                          <a href="/MinistryPrograms" >Ministries and Programs</a>
-                                        </li>
-
-                                        <li className="tb-megamenu-item level-2 mega">
-                                          <a href="/PathwayContacts" >Pathway Contacts & Information</a>
-                                        </li>
-
-                                      </ul>
-                                    </div>
-                                  </div>
-
-                                  <div className="tb-megamenu-column span3  mega-col-nav">
-                                    <div className="tb-megamenu-column-inner mega-inner clearfix">
-                                      <ul className="tb-megamenu-subnav mega-nav level-1 items-4">
-                                        <li className="tb-megamenu-item level-2 mega">
-                                          <a href="#" title="About">About</a>
-                                        </li>
-
-                                        <li className="tb-megamenu-item level-2 mega">
-                                          <a href="/About" title="About">About Us</a>
-                                        </li>
-
-                                        <li className="tb-megamenu-item level-2 mega">
-                                          <a href="/WhatWeBelieve" >What We Believe</a>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                          <li className="tb-megamenu-item level-1 mega">
+                            <a href="/SundayMorning" title="Visit Us">Visit Us</a>
+                          </li>
+                          <li className="tb-megamenu-item level-1 mega">
+                            <a href="/About" title="About">About</a>
                           </li>
 
                           <li className="tb-megamenu-item level-1 mega">
-                            <a href="/Events" title="Contact Us">Events</a>
+                            <a href="/Sermons" title="Sermons">Sermons</a>
                           </li>
+
+                          <li className="tb-megamenu-item level-1 mega">
+                            <a href="/MinistryPrograms" title="Ministries">Ministries</a>
+                          </li>
+
+                          {/*<li className="tb-megamenu-item level-1 mega">
+                            <a href="/Events" title="Events">Events</a>
+                          </li>*/}
 
                           <li className="tb-megamenu-item level-1 mega">
                             <a href="/ContactUs" title="Contact Us">Contact Us</a>

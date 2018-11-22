@@ -6,6 +6,7 @@ import kidsImg from '../../assets/img/kids.png';
 import fsmImg from '../../assets/img/fsm.png';
 import smallGroupImg from '../../assets/img/smallGroups.png';
 import prayerImg from '../../assets/img/prayer.png';
+import pathwayHouseImg from '../../assets/img/pathwayHouseLogo.png';
 
 class MinistryPrograms extends Component {
     render() {
@@ -85,7 +86,27 @@ class MinistryPrograms extends Component {
                                                         <img src={fsmImg} alt="" className="img img-responsive ministryImg" /><br />
                                                         Incorporated into the Pathway Kids' program is Pathway's Eastern Shore Ministries (ESM). The goal of ESM is to provide a safe and encouraging space for young kids where they can build
                                                         relationships with positive role models and encounter Christ.
+                                                    </div>
                                                 </div>
+
+                                                <div className="row">
+                                                    <div className="col-md-12 col-xs-12 padding-top-30">
+                                                        <h4>FACILITIES</h4>
+                                                        <p>
+                                                            Our facilities are available for use when suitable; chapel, hall, kitchen, Pathway House.
+                                                        </p>
+                                                        <img src={pathwayHouseImg} alt="" className="padding-top-15 img img-responsive ministryImg" /><br />
+                                                        <p>Pathway House is an associated ministry of Pathway to Life.</p>
+                                                        <p>The facility currently hosts education and allied health professionals.</p>
+                                                        <p>Pathway House seeks to support people in the community, with a particular focus on people living with an Autism Spectrum Disorder (ASD).</p>
+
+                                                        <strong>Contact Person</strong><br />
+                                                        Kristine Bull
+                                                        <ul className="no-list-style">
+                                                            <li>0437 225 767</li>
+                                                            <li><a href="mailto:kristne_tas@yahoo.com.au">kristne_tas@yahoo.com.au</a></li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div className="col-md-4 col-xs-12">
