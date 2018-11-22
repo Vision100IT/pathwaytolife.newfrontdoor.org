@@ -147,7 +147,7 @@ class Sermons extends Component {
       var sermons = _.map(this.state.sermons, (sermon) => {
         return (
           <tr key={_.uniqueId()} className="odd even">
-            {sermon.node_title ? <td style={tdPadding} dangerouslySetInnerHTML={{ __html: sermon.node_url }} /> : <td style={tdPadding}><a href={`/node/${sermon.nid}`}>Untitled</a></td>}
+            {sermon.node_title ? <td style={tdPadding}><a href={`/sermon/${sermon.nid}`}>{sermon.node_title}</a></td> : <td style={tdPadding}><a href={`/sermon/${sermon.nid}`}>Untitled</a></td>}
             {sermon.sermonseries ? <td style={tdPadding}><a href={'/series/' + sermon.series_id}>{decode(sermon.sermonseries)}</a></td> : <td style={tdPadding}></td>}
             <td style={tdPadding}>{sermon.text ? decode(sermon.text) : ''}</td>
             <td style={tdPadding}>{decode(sermon.preacher)}</td>
@@ -265,7 +265,7 @@ class Sermons extends Component {
                         {/*Only display the waypoint after number of pages has been set in state*/}
                         {this.state.sermonPages && !this.state.viewingRefinedList ? <Waypoint onEnter={this.handleWaypointEnter}></Waypoint> : ''}
 
-                        {this.state.sermonsRemaining && !this.state.loadingSermons && !this.state.viewingRefinedList ? <div className="text-center"><button className="btn btn-primary" onClick={this.handleWaypointEnter}>Load More...</button></div> : ''}
+                        {this.state.sermonsRemaining && !this.state.loadingSermons && !this.state.viewingRefinedList ? <div className="text-center"><button className="btn btn-primary sermon-load-more" onClick={this.handleWaypointEnter}>Load More...</button></div> : ''}
                         {this.state.sermonsRemaining || this.state.viewingRefinedList ? '' : <div className="text-center">No more sermons to load</div>}
                       </div>
 

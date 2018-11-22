@@ -8,7 +8,7 @@
 }
 
 /*Button color changes*/
-.sermon-search-button {
+.sermon-load-more, .sermon-search-button {
     padding: 2px 35px !important;
     border-color: #00579f;
     color: #00579f;
