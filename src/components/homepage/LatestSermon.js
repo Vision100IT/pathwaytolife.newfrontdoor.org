@@ -6,7 +6,6 @@ import { decode } from 'he'
 import { getFromDrupalAPI } from '../../utils/fetchJSON';
 
 import '../../assets/css/audioplayer.css'
-import sermonSeriesImage from '../../assets/img/sermonSeriesImage.jpg';
 
 class LatestSermon extends Component {
   constructor() {
@@ -37,7 +36,7 @@ class LatestSermon extends Component {
 
                   <div className="views-field views-field-field-front-page-thumbnail">
                     <div className="field-content">
-                      <img className="latestSermon-img" src={sermonSeriesImage} width="600" height="450" alt="" />
+                      <img className="latestSermon-img" src={sermon.sermon_img ? sermon.sermon_img : sermon.series_img} width="600" height="450" alt="" />
                     </div>
                   </div>
 
