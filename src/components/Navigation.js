@@ -51,7 +51,7 @@ class Navigation extends Component {
                       <div className="nav-collapse  always-show">
                         <ul className="tb-megamenu-nav nav level-0 items-5">
                           <li className="tb-megamenu-item level-1 mega">
-                            <a href="/SundayMorning" title="Visit Us">Visit Us</a>
+                            <a href="/SundayMorning" title="Visit Us">Sunday Morning</a>
                           </li>
                           <li className="tb-megamenu-item level-1 mega">
                             <a href="/About" title="About">About</a>

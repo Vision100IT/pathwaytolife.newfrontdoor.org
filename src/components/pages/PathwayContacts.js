@@ -9,7 +9,7 @@ class PathwayContacts extends Component {
                         <div className="row">
                             <div id="top-content-left-region" className="top-content-left col-xs-12 col-md-6 text-center-sm">
                                 <div id="page-title-block" className="page-title block">
-                                    <h1>Pathway Contacts and Information</h1>
+                                    <h1>Pathway Contacts</h1>
                                 </div>
                             </div>
 
@@ -53,16 +53,6 @@ class PathwayContacts extends Component {
                                                             Mark de Jonge<br />
                                                             Philip Kamphuis
 
-                                                            <h4>Deacons</h4>
-                                                            Philip and Grace Kamphuis
-                                                            <ul className="no-list-style">
-                                                                <li>0417 144 480</li>
-                                                            </ul>
-                                                            Henry and Leanne de Boer<br />
-                                                            Gerrie Vanderwal<br />
-                                                            Carla Vos
-                                                        </div>
-                                                        <div className="col-md-4 col-xs-12">
                                                             <h4>Prayer Ministry</h4>
                                                             Dini Groenewold
                                                             <ul className="no-list-style">
@@ -70,16 +60,22 @@ class PathwayContacts extends Component {
                                                                 <li><a href="mailto:rmdjgroenewold@gmail.com">rmdjgroenewold@gmail.com</a></li>
                                                             </ul>
 
+
+                                                        </div>
+                                                        <div className="col-md-4 col-xs-12">
+                                                            <h4>Deacons</h4>
+                                                            Philip and Grace Kamphuis
+                                                            <ul className="no-list-style">
+                                                                <li>0417 144 480</li>
+                                                            </ul>
+                                                            Leanne de Boer<br />
+                                                            Gerrie Vanderwal<br />
+                                                            Carla Vos
+
                                                             <h4>Worship</h4>
                                                             Kristine Bull
                                                             <ul className="no-list-style">
                                                                 <li>0437 225 767</li>
-                                                            </ul>
-
-                                                            <h4>Church Library</h4>
-                                                            Carla Vos
-                                                            <ul className="no-list-style">
-                                                                <li>0439 667 410</li>
                                                             </ul>
 
                                                             <h4>Pathway Enterprises</h4>
@@ -90,17 +86,18 @@ class PathwayContacts extends Component {
                                                             Arnold van Neutegem
                                                         </div>
                                                         <div className="col-md-4 col-xs-12">
-                                                            <h4>Office</h4>
-                                                            Wednesday 9am-3pm<br />
-                                                            (03) 6423 3795<br />
-                                                            <a href="mailto:office@pathwaytolife.org.au">office@pathwaytolife.org.au</a><br />
-                                                            PO Box 252, Devonport 7310
-
                                                             <h4>Secretary</h4>
                                                             Laura Cowen
                                                             <ul className="no-list-style">
                                                                 <li>0417 877 698</li>
                                                                 <li><a href="mailto:lauraj5cowen@gmail.com">lauraj5cowen@gmail.com</a></li>
+                                                            </ul>
+
+                                                            <h4>Treasurer</h4>
+                                                            Jody Kirwood
+                                                            <ul className="no-list-style">
+                                                                <li>0438 972 272</li>
+                                                                <li><a href="mailto:jodyanion@gmail.com">jodyanion@gmail.com</a></li>
                                                             </ul>
 
                                                             <h4>Administrator</h4>
@@ -110,12 +107,12 @@ class PathwayContacts extends Component {
                                                                 <li><a href="mailto:markjessdejonge@gmail.com">markjessdejonge@gmail.com</a></li>
                                                             </ul>
 
-                                                            <h4>Treasurer</h4>
-                                                            Jody Kirwood
+                                                            <h4>Church Library</h4>
+                                                            Carla Vos
                                                             <ul className="no-list-style">
-                                                                <li>0438 972 272</li>
-                                                                <li><a href="mailto:jodyanion@gmail.com">jodyanion@gmail.com</a></li>
+                                                                <li>0439 667 410</li>
                                                             </ul>
+
                                                         </div>
 
                                                     </div>

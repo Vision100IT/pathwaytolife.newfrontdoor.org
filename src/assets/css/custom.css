@@ -45,3 +45,19 @@
   width: 100% !important;
   height: 100% !important;
 }
+
+.crcaLogo{
+  margin-left: 60px;
+  margin-top: 25px;
+}
+@media (max-width: 1200px) {
+  .crcaLogo{
+  margin-left: 25px;
+  }
+}
+
+.pathwayHouseContact>h5, .pathwayHouseContact>h6{
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 5px;
+}

@@ -33,12 +33,12 @@ class MorningService extends Component {
                                 <div className="region region-content">
 
                                     <div className="content">
-                                        <img src={sundayServiceImg} alt="" className="img img-responsive padding-bottom-15" />
+                                        <img src={sundayServiceImg} alt="" className="img img-responsive padding-bottom-20" />
                                         <p>Join us on Sundays at 9:30am for our weekly service.</p>
 
                                         <p>Pre service <strong>prayer time</strong> starts at 9:10am.</p>
 
-                                        <p>During the service our <strong>children's program</strong> Pathway Kids runs most Sundays for children aged 4 to grade 6.<br />
+                                        <p>During the service our <strong>children's program</strong> Pathway Kids runs most Sundays for children aged 4 to Grade 6.<br />
                                             During the service a <  strong>crèche</strong> is available for children under 4 years of age.</p>
 
                                         <p>A <strong>hearing loop</strong> system is available.</p>

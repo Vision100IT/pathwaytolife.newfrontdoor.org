@@ -159,6 +159,10 @@ class ContactUs extends Component {
 
                       <div class="col-xs-12 col-sm-6 margin-top-xs-40">
                         <h5>Contact Us</h5>
+                        <b>Office</b><br />
+                        Wednesday 9am-3pm<br />
+                        (03) 6423 3795<br />
+                        PO Box 252, Devonport 7310<br /><br />
                         <p>
                           <b>Facebook:</b> &nbsp;<a href="https://www.facebook.com/PathwaytoLifeChurch/" target="_blank" rel="noopener noreferrer">/PathwaytoLifeChurch</a><br />
                           <b>Email:</b>&nbsp;<a href="mailto:office@pathwaytolife.org.au">office@pathwaytolife.org.au</a>
@@ -167,6 +171,7 @@ class ContactUs extends Component {
 
                     </div>
                   </div>
+
                 </div>
 
 
@@ -183,7 +188,7 @@ class ContactUs extends Component {
           </div> {/* /row */}
         </div> {/* /container */}
 
-      </section>
+      </section >
     );
   }
 }

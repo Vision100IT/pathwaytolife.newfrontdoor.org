@@ -2,7 +2,9 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
 
-import slider1 from '../../assets/img/slider1.jpg';
+import slider1 from '../../assets/img/entrance-slider.jpg';
+import slider2 from '../../assets/img/service-slider.jpg';
+import slider3 from '../../assets/img/foyer-slider.jpg';
 
 class Slider extends Component {
   constructor() {
@@ -27,7 +29,7 @@ class Slider extends Component {
               <img className="img-responsive img-full-width" src={slide.src} width="1440" height="600" />
               <figcaption className="overlay overlay-30 text-center">
                 <div className="highlighted-slider-2-content">
-                 {slide.caption.header ? <h1 className="slider-title">{slide.caption.header}</h1> : "" }
+                  {slide.caption.header ? <h1 className="slider-title">{slide.caption.header}</h1> : ""}
                   {slide.caption.description ? <p className="slider-description">{slide.caption.description}</p> : ""}
                   {slide.caption.href ? <a href={slide.caption.href} className="btn btn-default">{slide.caption.linkText}</a> : ""}
                 </div>
