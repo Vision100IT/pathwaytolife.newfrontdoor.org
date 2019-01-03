@@ -12,7 +12,17 @@ class Slider extends Component {
     this.state = {
       slides: [{
         "src": slider1,
-        "alt": "Welcome to Pathway to Life",
+        "alt": "Pathway to Life Entrance",
+        "caption": null
+      },
+      {
+        "src": slider2,
+        "alt": "Sunday Service",
+        "caption": null
+      },
+      {
+        "src": slider3,
+        "alt": "Foyer",
         "caption": null
       }]
     };
