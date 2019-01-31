@@ -26,7 +26,7 @@ class MinistryPrograms extends Component {
                                     <div className="breadcrumbs">
                                         <a href="/">Home</a>
                                         <span className="delimiter">›</span>
-                                        <span title="" className="nolink">Community Life</span>
+                                        <span title="" className="nolink">Ministries</span>
                                     </div>
                                 </div>
                             </div>
@@ -48,9 +48,9 @@ class MinistryPrograms extends Component {
                                                     <img src={menImg} alt="" className="img img-responsive ministryImg" /><br />
                                                     A team of men who <strong>encourage</strong> each other and seek to serve with an aim to <strong>ignite</strong> people for Christ.<br /><br />
                                                     <strong>Coordinator</strong><br />
-                                                    John de Jonge
+                                                    Ian Cameron
                                                         <ul className="no-list-style">
-                                                        <li>0418 501 298</li>
+                                                        <li>0423 175 224</li>
                                                     </ul>
 
                                                     <img src={womenImg} alt="" className="img img-responsive ministryImg padding-top-15" /><br />
@@ -76,14 +76,19 @@ class MinistryPrograms extends Component {
                                                     <p>During the Sunday Service<br />
                                                         Age 4 – Grade 6</p>
                                                     <p>The program is run most Sundays and includes Bible stories, lessons and activities, singing and games. When Pathway Kids is not on the Sunday is either a Connect Service or family friendly service.</p>
-                                                    <p>Connect Services are run around an intergenerational model. They are designed, through mentoring and teaching, to involve children in the routine running of a Sunday service. This service is not a children’s service but designed to be child and family friendly.</p>
-
-                                                    <img src={fsmImg} alt="" className="img img-responsive ministryImg" /><br />
-                                                    Incorporated into the Pathway Kids' program is Pathway's Eastern Shore Ministries (ESM). Children are collected by a free bus on Sunday morning from East Devonport to participate in Pathway Kids and appropriate Sunday services. Breakfast is provided before the service and the children share in morning tea afterwards. The goal of ESM is to provide a safe, non-judgemental and encouraging space for young children where they can build relationships with positive role models and encounter Christ.<br /><br />
+                                                    <p>Connect Services are run around an intergenerational model. They are designed, through mentoring and teaching, to involve children in the routine running of a Sunday service. This service is not a children’s service but designed to be child and family friendly.</p><br />
                                                     <strong>Coordinator</strong><br />
                                                     Bianca Niebuur
                                                         <ul className="no-list-style">
                                                         <li>0408 319 931</li>
+                                                    </ul>
+
+                                                    <img src={fsmImg} alt="" className="img img-responsive ministryImg padding-top-15" /><br />
+                                                    Incorporated into the Pathway Kids' program is Pathway's Eastern Shore Ministries (ESM). Children are collected by a free bus on Sunday morning from East Devonport to participate in Pathway Kids and appropriate Sunday services. Breakfast is provided before the service and the children share in morning tea afterwards. The goal of ESM is to provide a safe, non-judgemental and encouraging space for young children where they can build relationships with positive role models and encounter Christ.<br /><br />
+                                                    <strong>Coordinator</strong><br />
+                                                    Diane de Jonge
+                                                        <ul className="no-list-style">
+                                                        <li>0438 366 582</li>
                                                     </ul>
 
                                                 </div>
@@ -124,11 +129,6 @@ class MinistryPrograms extends Component {
                                                 Bec Foster
                                                 <ul className="no-list-style">
                                                     <li>0407 043 980</li>
-                                                </ul>
-                                                <strong>Pitstop Small Group</strong> &nbsp;<i className="icon ion-female size-24" /><br />
-                                                Kristine Bull
-                                                <ul className="no-list-style">
-                                                    <li>0437 225 767</li>
                                                 </ul>
                                                 <strong>Pitstop Small Group</strong> &nbsp;<i className="icon ion-male size-24" /><br />
                                                 Ettiene de Wilzem

@@ -19,7 +19,7 @@ class Footer extends Component {
                     <div className="content">
                       <div className="footer-address text-center">
                         <i className="icon ion-ios7-location-outline size-32 margin-bottom-20"></i>
-                        <p><a href="https://goo.gl/maps/phw9emfUYm52">Pathway to Life</a><br />
+                        <p><a href="https://goo.gl/maps/phw9emfUYm52" target="_blank" rel="noreferrer noopener">Pathway to Life</a><br />
                           9:30am Sunday<br />
                           20-22 Nicholls St,<br />
                           Devonport, Tasmania 7310</p>
@@ -89,9 +89,9 @@ class Footer extends Component {
 
                     <div className="content">
                       <div className="social-networks-footer">
-                        <a href="https://www.facebook.com/NewFrontDoorIT/"><i className="icon ion-social-facebook"></i></a>
-                        <a href="https://twitter.com/NewFrontDoorIT"><i className="icon ion-social-twitter"></i></a>
-                        <a href="mailto:contactus@newfrontdoor.org"><i className="icon ion-email"></i></a>
+                        <a href="https://www.facebook.com/NewFrontDoorIT/" target="_blank" rel="noreferrer noopener"><i className="icon ion-social-facebook"></i></a>
+                        <a href="https://twitter.com/NewFrontDoorIT" target="_blank" rel="noreferrer noopener"><i className="icon ion-social-twitter"></i></a>
+                        <a href="mailto:contactus@newfrontdoor.org" target="_blank" rel="noreferrer noopener"><i className="icon ion-email"></i></a>
                       </div> {/* /social-networks-footer */}  </div>
                   </div>  </div>
               </div> {/* /footer-right-region */}

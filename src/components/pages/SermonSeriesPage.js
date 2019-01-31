@@ -79,7 +79,9 @@ class SermonSeriesPage extends Component {
                                     <div className="breadcrumbs">
                                         <a href="/">Home</a>
                                         <span className="delimiter">›</span>
-                                        <span title="" className="nolink">Resources</span>
+                                        <a href="/Sermons">Sermons</a>
+                                        <span className="delimiter">›</span>
+                                        <span title="" className="nolink">{seriesTitle ? seriesTitle : ''}</span>
                                     </div>
                                 </div>
                             </div>

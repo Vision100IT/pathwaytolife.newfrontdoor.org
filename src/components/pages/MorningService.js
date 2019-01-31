@@ -19,7 +19,7 @@ class MorningService extends Component {
                                     <div className="breadcrumbs">
                                         <a href="/">Home</a>
                                         <span className="delimiter">›</span>
-                                        <span title="" className="nolink">Sundays</span>
+                                        <span title="" className="nolink">Sunday Morning</span>
                                     </div>
                                 </div>
                             </div>

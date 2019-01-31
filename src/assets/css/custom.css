@@ -61,3 +61,7 @@
   margin-top: 0;
   padding-top: 5px;
 }
+
+.sermon-page-image{
+  max-height: 400px;
+}

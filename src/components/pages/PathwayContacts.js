@@ -18,7 +18,9 @@ class PathwayContacts extends Component {
                                     <div className="breadcrumbs">
                                         <a href="/">Home</a>
                                         <span className="delimiter">›</span>
-                                        <span title="" className="nolink">Community Life</span>
+                                        <a href="/ContactUs">Contact Us</a>
+                                        <span className="delimiter">›</span>
+                                        <span title="" className="nolink">Directory</span>
                                     </div>
                                 </div>
                             </div>

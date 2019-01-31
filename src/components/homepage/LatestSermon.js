@@ -36,7 +36,9 @@ class LatestSermon extends Component {
 
                   <div className="views-field views-field-field-front-page-thumbnail">
                     <div className="field-content">
-                      <img className="latestSermon-img" src={sermon.sermon_img ? sermon.sermon_img : sermon.series_img} width="600" height="450" alt="" />
+                      <a href={`/sermon/${sermon.nid}`}>
+                        <img className="latestSermon-img" src={sermon.sermon_img ? sermon.sermon_img : sermon.series_img} width="600" height="450" alt="" />
+                      </a>
                     </div>
                   </div>
 

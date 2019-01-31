@@ -159,11 +159,11 @@
     font-size: 19.2px;
     color: #fff; }
   .audio_player .audio_time_progress {
-    margin-right: 20px;
+    margin-right: 10px;
     -ms-grid-row-align: center;
         align-self: center;
     color: #fff;
-    font-size: 23px; }
+    font-size: 16px; }
   .audio_player .audio_button {
     padding-left: 11px;
     padding-right: 11px;
@@ -180,8 +180,8 @@
             flex-direction: column;
     height: 40px; }
   .audio_player .play_pause_button .play_pause_inner {
-    height: 30px;
-    width: 30px;
+    height: 22px;
+    width: 25px;
     overflow: hidden;
     position: relative; }
   .audio_player .play_pause_button .left {
@@ -206,7 +206,7 @@
     width: 0;
     height: 0;
     border-right: 30px solid #333;
-    border-top: 15px solid transparent;
+    border-top: 10px solid transparent;
     border-bottom: 15px solid transparent;
     transition: -webkit-transform 0.25s ease;
     transition: transform 0.25s ease;
