@@ -19,6 +19,7 @@ import MinistryPrograms from './pages/MinistryPrograms';
 
 
 import ContactUs from './pages/ContactUs';
+import PathwayHouse from './pages/PathwayHouse';
 
 
 class OtherPageWrapper extends Component {
@@ -41,6 +42,7 @@ class OtherPageWrapper extends Component {
           <Route exact path="/PathwayContacts" component={PathwayContacts} />
           <Route exact path="/SundayMorning" component={MorningService} />
           <Route exact path="/MinistryPrograms" component={MinistryPrograms} />
+          <Route exact path="/PathwayHouse" component={PathwayHouse} />
 
           <Route path="/*" component={OtherPageContent} />
         </Switch>
