@@ -7,6 +7,7 @@ import fsmImg from '../../assets/img/fsm.png';
 import smallGroupImg from '../../assets/img/smallGroups.png';
 import prayerImg from '../../assets/img/prayer.png';
 import campImg from '../../assets/img/2017 Camp.jpg';
+import sheImg from '../../assets/img/she.png';
 
 class MinistryPrograms extends Component {
     render() {
@@ -53,21 +54,40 @@ class MinistryPrograms extends Component {
                                                         <li>0423 175 224</li>
                                                     </ul>
 
-                                                    <img src={womenImg} alt="" className="img img-responsive ministryImg padding-top-15" /><br />
-                                                    A group of women meeting regularly for a time of <strong>encouraging</strong> fellowship, and with events focusing on <strong>igniting</strong> people for Christ.<br /><br />
+                                                    <img src={womenImg} alt="" className="img img-responsive ministryImg padding-top-15" /> <img src={sheImg} alt="" className="img img-responsive ministryImg padding-top-15" /><br />
+                                                    Women <strong>encouraging</strong>, <strong>empowering</strong> and <strong>igniting</strong> for our church and community.<br /><br />
                                                     <strong>Coordinators</strong><br />
-                                                    Dana de Wilzem and Jessica de Jonge
-                                                        <ul className="no-list-style">
-                                                        <li>0467 376 767</li>
-                                                    </ul>
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <div className="col-md-6">
+                                                                Jessica de Jonge
+                                                                <ul className="no-list-style">
+                                                                    <li>0467 376 767</li>
+                                                                </ul>
+                                                                Dana de Wilzem
+                                                            </div>
+                                                            <div className="col-md-6 padding-top-sm-15">
+                                                                Renske Hartog
+                                                                <ul className="no-list-style">
+                                                                    <li>0477 773 602</li>
+                                                                </ul>
+                                                                Grace Kamphuis
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
 
                                                     <img src={youthImg} alt="" className="img img-responsive ministryImg padding-top-15 " /><br />
-                                                    A Bible study <strong>encouraging</strong> and <strong>empowering</strong> young people. A team facilitating yearly family events with a focus on <strong>igniting</strong> people for Christ.<br /><br />
+                                                    Regular Bible studies <strong>encouraging</strong> and <strong>empowering</strong> high schoolers and events with a focus on <strong>igniting</strong> people for Christ.<br /><br />
                                                     <strong>Coordinators</strong><br />
                                                     Ryan and Bianca Niebuur
                                                         <ul className="no-list-style">
                                                         <li>0408 319 931</li>
                                                     </ul>
+                                                    Ettiene de Wilzem<br />
+                                                    Ed Kentler<br />
+
 
                                                     <img src={kidsImg} alt="" className="img img-responsive ministryImg padding-top-15" /><br />
                                                     A Sunday service program <strong>encouraging</strong> and <strong>empowering</strong> our primary aged children.
