@@ -54,7 +54,9 @@ class MinistryPrograms extends Component {
                                                         <li>0423 175 224</li>
                                                     </ul>
 
-                                                    <img src={womenImg} alt="" className="img img-responsive ministryImg padding-top-15" /> <img src={sheImg} alt="" className="img img-responsive ministryImg padding-top-15" /><br />
+
+                                                    <img src={womenImg} alt="" className="img img-responsive ministryImg padding-top-15" />
+                                                    <img src={sheImg} alt="" className="img img-responsive ministryImg ministryImgSecond padding-top-15" /><br />
                                                     Women <strong>encouraging</strong>, <strong>empowering</strong> and <strong>igniting</strong> for our church and community.<br /><br />
                                                     <strong>Coordinators</strong><br />
                                                     <div className="row">

@@ -62,6 +62,13 @@
   padding-top: 5px;
 }
 
-.sermon-page-image{
+.sermon-page-image, .sermon-series-page-image{
   max-height: 400px;
+}
+
+
+@media (min-width: 600px) {
+  .ministryImgSecond{
+    margin-left: 150px;
+  }
 }

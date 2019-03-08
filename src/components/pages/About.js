@@ -46,7 +46,7 @@ class About extends Component {
 
                       <div className="row">
                         <div className="col-md-12 col-xs-12 padding-top-30">
-                          PATHWAY TO LIFE is part of the <em><a href="https://crca.org.au/" target="_blank" rel="noreferrer noopener">Christian Reformed Churches of Australia</a></em> <img width="120" height="130" style={{ paddingLeft: "15px", paddingTop: "15px" }} src={crcaLogo} alt="" />
+                          PATHWAY TO LIFE is part of the <em><a href="http://crca.org.au/" target="_blank" rel="noreferrer noopener">Christian Reformed Churches of Australia</a></em> <img width="120" height="130" style={{ paddingLeft: "15px", paddingTop: "15px" }} src={crcaLogo} alt="" />
                         </div>
                       </div>
 

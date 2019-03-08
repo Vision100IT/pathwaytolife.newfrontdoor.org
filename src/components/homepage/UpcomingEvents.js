@@ -45,7 +45,8 @@ class UpcomingEvents extends Component {
               <div className="upcoming-events">
                 {upcomingEvents}
               </div>
-              <p>For a full list of our events, <a href="/Events" title="View full calendar">click here</a>.</p>
+              {/*Removed until full calendar is implemented
+              <p>For a full list of our events, <a href="/Events" title="View full calendar">click here</a>.</p>*/}
             </div>
           </div>
         </div>

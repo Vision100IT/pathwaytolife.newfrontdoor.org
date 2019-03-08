@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class PathwayContacts extends Component {
+class Directory extends Component {
     render() {
         return (
             <section>
@@ -9,7 +9,7 @@ class PathwayContacts extends Component {
                         <div className="row">
                             <div id="top-content-left-region" className="top-content-left col-xs-12 col-md-6 text-center-sm">
                                 <div id="page-title-block" className="page-title block">
-                                    <h1>Pathway Contacts</h1>
+                                    <h1>Directory</h1>
                                 </div>
                             </div>
 
@@ -53,7 +53,8 @@ class PathwayContacts extends Component {
                                                             </ul>
                                                             Simon De Haan<br />
                                                             Mark de Jonge<br />
-                                                            Philip Kamphuis
+                                                            Philip Kamphuis<br />
+                                                            Ryan Niebuur
 
                                                             <h4>Prayer Ministry</h4>
                                                             Dini Groenewold
@@ -71,6 +72,7 @@ class PathwayContacts extends Component {
                                                                 <li>0417 144 480</li>
                                                             </ul>
                                                             Leanne de Boer<br />
+                                                            Marrie Groenewold<br />
                                                             Gerrie Vanderwal<br />
                                                             Carla Vos
 
@@ -81,11 +83,11 @@ class PathwayContacts extends Component {
                                                             </ul>
 
                                                             <h4>Pathway Enterprises</h4>
-                                                            Peter de Weys<br />
-                                                            Rob Groenewold<br />
-                                                            Grace Kamphuis<br />
-                                                            Simon Lunnon<br />
-                                                            Arnold van Neutegem
+                                                            Mark de Jonge
+                                                            <ul className="no-list-style">
+                                                                <li>0419 151 880</li>
+                                                                <li><a href="mailto:markjessdejonge@gmail.com">markjessdejonge@gmail.com</a></li>
+                                                            </ul>
                                                         </div>
                                                         <div className="col-md-4 col-xs-12">
                                                             <h4>Secretary</h4>
@@ -132,4 +134,4 @@ class PathwayContacts extends Component {
     }
 }
 
-export default PathwayContacts;
+export default Directory;
