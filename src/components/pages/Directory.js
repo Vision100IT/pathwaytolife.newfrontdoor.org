@@ -49,7 +49,7 @@ class Directory extends Component {
                                                             Michael Vos - Chair
                                                             <ul className="no-list-style">
                                                                 <li>0417 255 797</li>
-                                                                <li><a href="mailto:mickandcarl@gmail.com">mickandcarl@gmail.com</a></li>
+                                                                <li><a href="mailto:michael_vos@hotmail.com">michael_vos@hotmail.com</a></li>
                                                             </ul>
                                                             Simon De Haan<br />
                                                             Mark de Jonge<br />
@@ -75,12 +75,6 @@ class Directory extends Component {
                                                             Marrie Groenewold<br />
                                                             Gerrie Vanderwal<br />
                                                             Carla Vos
-
-                                                            <h4>Worship</h4>
-                                                            Kristine Bull
-                                                            <ul className="no-list-style">
-                                                                <li>0437 225 767</li>
-                                                            </ul>
 
                                                             <h4>Pathway Enterprises</h4>
                                                             Mark de Jonge

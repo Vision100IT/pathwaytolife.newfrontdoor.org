@@ -61,7 +61,7 @@ class About extends Component {
                       <div className="row">
                         <div className="col-md-12 col-xs-12 padding-top-30">
                           <h4>FACILITIES</h4>
-                          <p>Our facilities are available for use when suitable; chapel, hall, kitchen, Pathway House.</p>
+                          <p>Our facilities are available for use when suitable; chapel, hall, kitchen, meeting rooms and Pathway House.</p>
 
                           <h4>PATHWAY HOUSE</h4>
                           <div className="row padding-top-15">
