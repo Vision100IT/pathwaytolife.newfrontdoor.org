@@ -42,7 +42,7 @@ class SermonPage extends Component {
           sermonTitle = decode(sermon.node_title);
           seriesTitle = decode(sermon.sermonseries);
 
-          if (sermon.series_id === null) {
+          if (sermon.series_id !== null) {
             seriesID = sermon.series_id;
           }
           return (
