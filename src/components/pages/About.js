@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import crcaLogo from '../../assets/img/CRCA-logo.png';
 import childSafeImg from '../../assets/img/childsafe.jpg';
 import aboutUsImg from '../../assets/img/entrance2.jpg';
-import pathwayHouseImg from '../../assets/img/pathwayHouseLogo.png';
 
 class About extends Component {
   render() {
@@ -46,51 +45,18 @@ class About extends Component {
 
                       <div className="row">
                         <div className="col-md-12 col-xs-12 padding-top-30">
-                          PATHWAY TO LIFE is part of the <em><a href="http://crca.org.au/" target="_blank" rel="noreferrer noopener">Christian Reformed Churches of Australia</a></em> <img width="120" height="130" style={{ paddingLeft: "15px", paddingTop: "15px" }} src={crcaLogo} alt="" />
+                          <a href="http://crca.org.au/" target="_blank" rel="noreferrer noopener"><img width="120" height="130" style={{ float: "left", paddingRight: "15px", paddingTop: "15px" }} src={crcaLogo} alt="" /></a><p style={{ marginTop: "40px" }}>PATHWAY TO LIFE is part of the <em><a href="http://crca.org.au/" target="_blank" rel="noreferrer noopener">Christian Reformed Churches of Australia</a></em></p>
                         </div>
                       </div>
 
                       <div className="row">
                         <div className="col-md-12 col-xs-12 padding-top-30">
-                          We value the safety of all children so we have implemented the <a href="https://www.childsafe.org.au/" target="_blank" rel="noopener noreferrer">ChildSafe</a> system for ensuring our kid's activities are safe for everyone.
+                          <a href="https://www.childsafe.org.au/" target="_blank" rel="noopener noreferrer"><img style={{ float: "left", paddingRight: "15px", paddingTop: "15px", maxWidth: "210px" }} src={childSafeImg} alt="" /> </a><p style={{ marginTop: "15px" }}>We value the safety of all children so we have implemented the <a href="https://www.childsafe.org.au/" target="_blank" rel="noopener noreferrer">ChildSafe</a> system for ensuring our kid's activities are safe for everyone.</p>
 
-                            <a href="https://www.childsafe.org.au/" target="_blank" rel="noopener noreferrer"><img style={{ paddingLeft: "15px", paddingTop: "15px", maxWidth: "210px" }} src={childSafeImg} alt="" /> </a>
                         </div>
                       </div>
 
-                      <div className="row">
-                        <div className="col-md-12 col-xs-12 padding-top-30">
-                          <h4>FACILITIES</h4>
-                          <p>Our facilities are available for use when suitable; chapel, hall, kitchen, meeting rooms and Pathway House.</p>
 
-                          <h4>PATHWAY HOUSE</h4>
-                          <div className="row padding-top-15">
-                            <div className="col-md-3"><img src={pathwayHouseImg} alt="" className="img img-responsive ministryImg" /></div>
-                            <div className="col-md-9"><p>Pathway House is an associated ministry of Pathway to Life.</p>
-                              <p>The facility currently hosts education and allied health professionals.</p>
-                              <p>Pathway House seeks to support people in the community, with a particular focus on people living with an Autism Spectrum Disorder (ASD).</p>
-                              <p>To find out more about Pathway House and contact details for the people involved please visit <a href="/PathwayHouse">this page</a>.</p>
-                            </div>
-                          </div>
-
-
-
-
-                          <div className="row padding-top-30">
-                            <div className="col-xs-12">
-                              <h4>SUPPORTING PATHWAY</h4>
-                              To make a donation to Pathway ministries and missions you can direct deposit it to: <br /><br />
-                              <ul className="no-list-style">
-                                <li><strong>Account:</strong> Pathway to Life</li>
-                                <li><strong>BSB:</strong> 037 604</li>
-                                <li><strong>Account Number:</strong> 293165</li>
-                              </ul>
-                            </div>
-
-
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>

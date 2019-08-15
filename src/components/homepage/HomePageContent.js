@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import LatestSermon from './LatestSermon';
 import WhereToFindUs from './WhereToFindUs';
-import UpcomingEvents from './UpcomingEvents';
+import UpcomingEvents from './SocialBlock';
 
 class HomePageContent extends Component {
   render() {

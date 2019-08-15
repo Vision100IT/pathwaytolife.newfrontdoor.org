@@ -33,9 +33,9 @@ class Navigation extends Component {
                           <li className="active"><a href="/" title="" className="active">Home</a></li>
                           <li><a href="/SundayMorning" title="">Visit us @ 9:30am Sundays</a></li>
                           <li><a href="/About" title="">About</a></li>
+                          <li><a href="/Facilities" title="">Facilities</a></li>
                           <li><a href="/Sermons" title="">Sermons</a></li>
                           <li><a href="/MinistryPrograms" title="">Ministries</a></li>
-                          {/*<li><a href="/Events" title="">Events</a></li>*/}
                           <li><a href="/ContactUs" title="">Contact Us</a></li>
                         </ul>
                       </div> {/* /navbar-collapse */}
@@ -55,6 +55,9 @@ class Navigation extends Component {
                           </li>
                           <li className="tb-megamenu-item level-1 mega">
                             <a href="/About" title="About">About</a>
+                          </li>
+                          <li className="tb-megamenu-item level-1 mega">
+                            <a href="/Facilities" title="Facilities">Facilities</a>
                           </li>
 
                           <li className="tb-megamenu-item level-1 mega">

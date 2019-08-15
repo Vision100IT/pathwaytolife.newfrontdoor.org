@@ -148,9 +148,9 @@ class MinistryPrograms extends Component {
                                                     <li>(03) 6426 2205</li>
                                                 </ul>
                                                 <strong>Tuesday Night Weekly</strong><br />
-                                                Bec Foster
+                                                Ed Kentler
                                                 <ul className="no-list-style">
-                                                    <li>0407 043 980</li>
+                                                    <li>0405 526 079</li>
                                                 </ul>
                                                 <strong>Pitstop Small Group</strong> &nbsp;<i className="icon ion-male size-24" /><br />
                                                 Ettiene de Wilzem
