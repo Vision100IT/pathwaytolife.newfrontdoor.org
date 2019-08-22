@@ -50,7 +50,9 @@ class Footer extends Component {
                     <div className="content">
                       <div className="footer-phone text-center">
                         <i className="icon ion-social-facebook-outline size-32 margin-bottom-20"></i>
-                        <p><a href="https://www.facebook.com/PathwaytoLifeChurch/" target="_blank" rel="noopener noreferrer">facebook.com/PathwaytoLifeChurch</a><br /></p>
+                        <i className="icon ion-social-rss-outline size-32 margin-bottom-20" style={{ marginLeft: "10px" }}></i>
+                        <p><a href="https://www.facebook.com/PathwaytoLifeChurch/" target="_blank" rel="noopener noreferrer">facebook.com/PathwaytoLifeChurch</a><br />
+                          <a href="https://podcasts.apple.com/au/podcast/pathway-to-life-podcast/id1476660027">Subscribe to Our Podcast</a></p>
                       </div>  </div>
                   </div>  </div>
               </div> {/* /footer-third-column-region */}
