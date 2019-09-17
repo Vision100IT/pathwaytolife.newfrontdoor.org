@@ -39,8 +39,8 @@ class SermonPage extends Component {
           else {
             sermonImg = sermon.series_full_img ? sermon.series_full_img : sermon.series_img
           }
-          sermonTitle = decode(sermon.node_title);
-          seriesTitle = decode(sermon.sermonseries);
+          sermonTitle = sermon.node_title ? decode(sermon.node_title) : "Untitled";
+          seriesTitle = sermon.sermonseries !== null ? decode(sermon.sermonseries) : "";
 
           if (sermon.series_id !== null) {
             seriesID = sermon.series_id;
