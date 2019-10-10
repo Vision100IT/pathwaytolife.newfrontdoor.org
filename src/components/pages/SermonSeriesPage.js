@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 import _ from 'lodash';
 import { decode } from 'he'
@@ -35,13 +34,14 @@ class SermonSeriesPage extends Component {
 
     render() {
         var seriesTitle = "Series Title";
+        var sermons;
         if (this.state.sermons) {
 
             if (this.state.sermons.length > 0) {
                 var seriesImg = this.state.seriesImgFull ? this.state.seriesImgFull : this.state.seriesImgThumb;
                 seriesTitle = this.state.sermons[0].sermonseries;
                 var tdPadding = { padding: "0px 5px 0px 5px" };
-                var sermons = _.map(this.state.sermons, (sermon) => {
+                sermons = _.map(this.state.sermons, (sermon) => {
                     return (
                         <tr key={_.uniqueId()} className="odd even">
                             {sermon.node_title ? <td style={tdPadding}><a href={'/sermon/' + sermon.nid}>{decode(sermon.node_title)}</a></td> : <td style={tdPadding}></td>}
@@ -57,7 +57,7 @@ class SermonSeriesPage extends Component {
                 )
             }
             else {
-                var sermons = (<div className="content"><p>Sorry, this sermon series could not be found.</p>
+                sermons = (<div className="content"><p>Sorry, this sermon series could not be found.</p>
                     <p>You can find all of our available sermons on <a href="/allsermons">this page.</a> </p></div>)
             }
 
@@ -97,7 +97,7 @@ class SermonSeriesPage extends Component {
                                         <div className="content">
 
                                             <div>
-                                                <img className="img-responsive sermon-series-page-image" src={seriesImg ? seriesImg : ''} />
+                                                <img className="img-responsive sermon-series-page-image" src={seriesImg ? seriesImg : ''} alt="" />
                                             </div>
                                             <br />
                                             <div className="view-content">

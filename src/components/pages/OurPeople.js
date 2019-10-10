@@ -1,9 +1,8 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 
 import Person from '../models/Person';
 import Male from '../../assets/img/people/Male.png';
-import Female from '../../assets/img/people/Female.png';
+//import Female from '../../assets/img/people/Female.png';
 
 class OurPeople extends Component {
 

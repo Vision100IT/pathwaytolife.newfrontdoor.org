@@ -1,4 +1,3 @@
-/*eslint-disable*/
 import React, { Component } from 'react';
 
 import Waypoint from 'react-waypoint';
@@ -139,12 +138,13 @@ class Sermons extends Component {
 
 
   render() {
+    var sermons;
     if (!this.state.sermons) {
-      var sermons = <tr><td>Loading, please wait.</td></tr>;
+      sermons = <tr><td>Loading, please wait.</td></tr>;
     }
     else {
       var tdPadding = { padding: "0px 5px 0px 5px" };
-      var sermons = _.map(this.state.sermons, (sermon) => {
+      sermons = _.map(this.state.sermons, (sermon) => {
         return (
           <tr key={_.uniqueId()} className="odd even">
             {sermon.node_title ? <td style={tdPadding}><a href={`/sermon/${sermon.nid}`}>{sermon.node_title}</a></td> : <td style={tdPadding}><a href={`/sermon/${sermon.nid}`}>Untitled</a></td>}
@@ -160,7 +160,8 @@ class Sermons extends Component {
 
     let prevSermonsLink = null;
     if (this.state.viewingRefinedList === true) {
-      prevSermonsLink = <a href="javascript:void(0);" onClick={() => this.loadPreviousSermons(1)}>Return to All Sermons</a>
+      prevSermonsLink = <a href="javascript:void(0);" //eslint-disable-line
+        onClick={() => this.loadPreviousSermons(1)}>Return to All Sermons</a>
     }
 
     let loadingIcon = null;

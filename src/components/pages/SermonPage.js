@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 import _ from 'lodash';
 import AudioPlayer from 'react-responsive-audio-player';
@@ -30,8 +29,9 @@ class SermonPage extends Component {
       var sermonTitle = "";
       var seriesTitle = "";
       var seriesID = "";
+      var sermonDetails;
       if (this.state.sermon.length > 0) {
-        var sermonDetails = _.map(this.state.sermon, (sermon) => {
+        sermonDetails = _.map(this.state.sermon, (sermon) => {
           var sermonImg;
           if (sermon.sermon_img || sermon.sermon_full_img) {
             sermonImg = sermon.sermon_full_img ? sermon.sermon_full_img : sermon.sermon_img;
@@ -49,7 +49,7 @@ class SermonPage extends Component {
             <section key={_.uniqueId()}>
               <div className="content">
                 <div>
-                  <img className="img-responsive sermon-page-image" src={sermonImg} />
+                  <img className="img-responsive sermon-page-image" src={sermonImg} alt="" />
                 </div>
                 <br />
                 <div className="field field-name-field-date-preached field-type-datetime field-label-above">
@@ -96,13 +96,13 @@ class SermonPage extends Component {
         });
       }
       else {
-        var sermonDetails = (<div className="content"><p>Sorry, that sermon could not be found.</p>
+        sermonDetails = (<div className="content"><p>Sorry, that sermon could not be found.</p>
           <p>You can find all of our available sermons on <a href="/allsermons">this page.</a> </p></div>)
       }
 
     }
     else {
-      var sermonDetails = <div className="content">Loading, please wait.</div>
+      sermonDetails = <div className="content">Loading, please wait.</div>
     }
 
     return (

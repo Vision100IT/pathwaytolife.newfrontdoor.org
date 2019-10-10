@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 
 import _ from 'lodash'
@@ -31,13 +30,14 @@ class Sermons extends Component {
 
   }
   render() {
-
+    var recentSeries;
+    var latestSermon;
     if (!this.state.sermons || !this.state.latestSermon || !this.state.recentSeries) {
-      var recentSeries = <div>Loading, please wait.</div>;
-      var latestSermon = <div>Loading, please wait.</div>
+      recentSeries = <div>Loading, please wait.</div>;
+      latestSermon = <div>Loading, please wait.</div>
     }
     else {
-      var recentSeries = _.map(this.state.recentSeries, (series) => {
+      recentSeries = _.map(this.state.recentSeries, (series) => {
         return (
           <div key={_.uniqueId()} className="views-row views-row-1 views-row-odd views-row-first col-sm-3">
 
@@ -57,7 +57,7 @@ class Sermons extends Component {
         )
       });
 
-      var latestSermon = (<div className="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      latestSermon = (<div className="views-row views-row-1 views-row-odd views-row-first views-row-last">
         <div className="views-field views-field-field-thumbnail-image">        <div className="field-content">
           <a href={`/sermon/${this.state.latestSermon.nid}`}><img src={this.state.latestSermon.sermon_img ? this.state.latestSermon.sermon_img : this.state.latestSermon.series_img} width="600" height="450" alt="" /></a></div>  </div>
         <div className="views-field views-field-title-1">

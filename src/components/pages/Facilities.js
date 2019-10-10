@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import pathwayHouseImg from '../../assets/img/pathwayHouseLogo.png';
+import communityHubImg from '../../assets/img/The Community HUB.png';
+import term4PDF from '../../assets/The Community Hub Term 4 2019.pdf'
 
 class Facilities extends Component {
     render() {
@@ -47,7 +49,15 @@ class Facilities extends Component {
                                                         </div>
                                                     </div>
 
-
+                                                    <h4>THE COMMUNITY HUB</h4>
+                                                    <div className="row padding-top-15">
+                                                        <div className="col-md-3"><img src={communityHubImg} alt="" className="img img-responsive ministryImg" /></div>
+                                                        <div className="col-md-9"><p></p>
+                                                            <p>The Community Hub is in association with Pathway House and an initiative of Pathway to Life Church.</p>
+                                                            <p>The Hub is a place to come, connect and simply just be. This could mean for you learning a skill, joining an exercise group, having coffee with friends, playing a game or just chilling.</p>
+                                                            <p>You can view and download the 2019 Term 4 program and information sheet <a href={term4PDF} target="_blank" rel="noreferrer noopener">here</a>.</p>
+                                                        </div>
+                                                    </div>
 
 
                                                     <div className="row padding-top-30">

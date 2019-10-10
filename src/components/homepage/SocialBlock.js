@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 
 class SocialBlock extends Component {
@@ -14,7 +13,7 @@ class SocialBlock extends Component {
 
                         <div className="content">
                             <div className="upcoming-events">
-                                <p>The best place to go to find out what's coming up and happening at Pathway is the Church <a href="https://www.facebook.com/PathwaytoLifeChurch/" target="_blank">Facebook page</a>.</p>
+                                <p>The best place to go to find out what's coming up and happening at Pathway is the Church <a href="https://www.facebook.com/PathwaytoLifeChurch/" target="_blank" rel="noreferrer noopener">Facebook page</a>.</p>
                             </div>
                         </div>
                     </div>

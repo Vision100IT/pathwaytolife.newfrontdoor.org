@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 import ptlLogo from '../../assets/img/logo.png'
 import crcaLogo from '../../assets/img/CRCA-logo.png'
