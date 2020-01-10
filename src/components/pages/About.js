@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import crcaLogo from '../../assets/img/CRCA-logo.png';
+import crcaLogo from '../../assets/img/CRCA-logo.jpg';
 import childSafeImg from '../../assets/img/childsafe.jpg';
 import aboutUsImg from '../../assets/img/entrance2.jpg';
 
@@ -45,7 +45,7 @@ class About extends Component {
 
                       <div className="row">
                         <div className="col-md-12 col-xs-12 padding-top-30">
-                          <a href="http://crca.org.au/" target="_blank" rel="noreferrer noopener"><img width="120" height="130" style={{ float: "left", paddingRight: "15px", paddingTop: "15px" }} src={crcaLogo} alt="" /></a><p style={{ marginTop: "40px" }}>PATHWAY TO LIFE is part of the <em><a href="http://crca.org.au/" target="_blank" rel="noreferrer noopener">Christian Reformed Churches of Australia</a></em></p>
+                          <a href="http://crca.org.au/" target="_blank" rel="noreferrer noopener"><img width="140" height="160" style={{ float: "left", paddingRight: "15px", paddingTop: "15px" }} src={crcaLogo} alt="" /></a><p style={{ marginTop: "40px" }}>PATHWAY TO LIFE is part of the <em><a href="http://crca.org.au/" target="_blank" rel="noreferrer noopener">Christian Reformed Churches of Australia</a></em></p>
                         </div>
                       </div>
 

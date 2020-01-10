@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ptlLogo from '../../assets/img/logo.png'
-import crcaLogo from '../../assets/img/CRCA-logo.png'
+import crcaLogo from '../../assets/img/CRCA-logo.jpg'
 import motto from '../../assets/img/motto.png'
 
 
@@ -29,7 +29,7 @@ class Welcome extends Component {
 
                               <img className="img img-responsive padding-bottom-40" src={motto} alt="logo" />
                               <div className="row">
-                                <div className="col-md-3 col-xs-12">
+                                <div className="col-md-3 col-xs-12 text-center">
                                   <img className="img img-responsive" src={ptlLogo} alt="logo" />
                                 </div>
                                 <div className="col-md-9 col-xs-12 padding-top-20">
@@ -41,8 +41,8 @@ class Welcome extends Component {
                               </div>
 
                               <div className="row padding-top-15">
-                                <div className="col-md-3 col-xs-12">
-                                  <img width="125" height="136" className="crcaLogo" src={crcaLogo} alt="" />
+                                <div className="col-md-3 col-xs-12 text-center">
+                                  <img width="140" height="160" className="crcaLogo" src={crcaLogo} alt="" />
                                 </div>
                                 <div className="col-md-9 col-xs-12 padding-top-50">
                                   PATHWAY TO LIFE is part of the <em><a href="https://crca.org.au/" target="_blank" rel="noreferrer noopener">Christian Reformed Churches of Australia</a></em>
