@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import sundayServiceImg from '../../assets/img/entrance.jpg';
+//import sundayServiceImg from '../../assets/img/entrance.jpg';
 
 class MorningService extends Component {
     render() {
@@ -33,7 +33,10 @@ class MorningService extends Component {
                                 <div className="region region-content">
 
                                     <div className="content">
-                                        <img src={sundayServiceImg} alt="" className="img img-responsive padding-bottom-20" />
+
+                                        <p>Pathway has gone online with a weekly Zoom service.</p>
+                                        <p>Information for this is passed onto known contacts and more can be found through <a href="/ContactUs">contacting the church</a> or visiting the <a href="https://www.facebook.com/PathwaytoLifeChurch/">Facebook page</a>.</p>
+                                        {/*<img src={sundayServiceImg} alt="" className="img img-responsive padding-bottom-20" />
                                         <p>Join us on Sundays at 9:30am for our weekly service.</p>
 
                                         <p>Pre service <strong>prayer time</strong> starts at 9:10am.</p>
@@ -45,7 +48,7 @@ class MorningService extends Component {
 
                                         <p>After the service all are welcome to share in <strong>morning tea</strong> and fellowship.</p>
 
-                                        <p>If anyone would like to <strong>talk or pray</strong> with a church leader the opportunity is available immediately after the service.</p>
+                                        <p>If anyone would like to <strong>talk or pray</strong> with a church leader the opportunity is available immediately after the service.</p>*/}
                                     </div>
 
 
