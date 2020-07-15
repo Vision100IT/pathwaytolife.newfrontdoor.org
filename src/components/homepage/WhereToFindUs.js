@@ -15,7 +15,7 @@ class WhereToFindUs extends Component {
                 <div><a href="https://goo.gl/maps/phw9emfUYm52" target="_blank" rel="noreferrer noopener">Pathway To Life</a></div>
                 <div>9:30am Sunday</div>
                 <div>20-22 Nicholls St</div>
-                <div>Devenport, Tasmania</div>  </div>
+                <div>Devonport, Tasmania</div>  </div>
             </div>
           </div>
         </div>

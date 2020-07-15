@@ -13,7 +13,7 @@ class SocialBlock extends Component {
 
                         <div className="content">
                             <div className="upcoming-events">
-                                <p>Pathway has gone online with a weekly Zoom service. Information for this is passed onto known contacts and more can be found through contacting the church or visiting the Facebook page.</p>
+                                {/*<p>Pathway has gone online with a weekly Zoom service. Information for this is passed onto known contacts and more can be found through contacting the church or visiting the Facebook page.</p>*/}
                                 <p>The best place to go to find out what's coming up and happening at Pathway is the Church <a href="https://www.facebook.com/PathwaytoLifeChurch/" target="_blank" rel="noreferrer noopener">Facebook page</a>.</p>
                             </div>
                         </div>
