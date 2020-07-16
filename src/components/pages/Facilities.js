@@ -51,7 +51,7 @@ class Facilities extends Component {
                                                     <h4>THE COMMUNITY HUB</h4>
                                                     <div className="row padding-top-15">
                                                         <div className="col-md-3"><img src={communityHubImg} alt="" className="img img-responsive ministryImg" /></div>
-                                                        <div className="col-md-9"><p></p>
+                                                        <div className="col-md-9">
                                                             <p>The Community Hub is in association with Pathway House and an initiative of Pathway to Life Church.</p>
                                                             <p>The Hub is a place to come, connect and simply just be. This could mean for you learning a skill, enjoying a craft, playing a game, having coffee with friends or sharing a yummy brunch.</p>
                                                             <p>Amidst the current circumstances The Community HUB is able to re-commence with the State Government restrictions and requirements being followed through The HUB's COVID-19 Plan, this can be viewed <a href="https://pathwayapi.newfrontdoor.org/sites/pathwayapi.newfrontdoor.org/files/HUB%20COVID%2019.pdf">here</a>. The program for Term 3, 2020 is coming soon.</p>

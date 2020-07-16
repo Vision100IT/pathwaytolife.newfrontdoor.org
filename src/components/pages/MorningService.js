@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-//import sundayServiceImg from '../../assets/img/entrance.jpg';
+import sundayServiceImg from '../../assets/img/entrance.jpg';
+import covidImg from '../../assets/img/COVID-READY.png'
 
 class MorningService extends Component {
     render() {
@@ -52,6 +53,15 @@ class MorningService extends Component {
                                         <p>After the service all are welcome to share in <strong>morning tea</strong> and fellowship.</p>
 
                                         <p>If anyone would like to <strong>talk or pray</strong> with a church leader the opportunity is available immediately after the service.</p>
+                                        
+                                        <div className="row padding-top-20">
+                                        <div className="col-sm-2 text-center"><img src={covidImg} alt="" className="img img-responsive ministryImg" /></div>
+                                        <div className="col-sm-10 padding-top-30">
+                                            <p>Amidst the current circumstances Pathway to Life is able to re-commence with the State Government restrictions and requirements being followed through our Covid-19 Safety Plan. Feel free to contact the church if you would like to view a copy on the plan.</p>
+                                        </div>
+                                        </div>
+                                        
+                                        
                                     </div>
 
 
