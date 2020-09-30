@@ -13,7 +13,7 @@ import OurPeople from './pages/OurPeople';
 import About from './pages/About';
 import Events from './pages/Events';
 import Directory from './pages/Directory';
-import MorningService from './pages/MorningService';
+import SundayMorning from './pages/SundayMorning';
 import MinistryPrograms from './pages/MinistryPrograms';
 import Facilities from './pages/Facilities';
 
@@ -40,7 +40,7 @@ class OtherPageWrapper extends Component {
           <Route exact path="/ContactUs" component={ContactUs} />
           <Route exact path="/Events" component={Events} />
           <Route exact path="/PathwayContacts" component={Directory} />
-          <Route exact path="/SundayMorning" component={MorningService} />
+          <Route exact path="/SundayMorning" component={SundayMorning} />
           <Route exact path="/MinistryPrograms" component={MinistryPrograms} />
           <Route exact path="/Facilities" component={Facilities} />
           <Route exact path="/PathwayHouse" component={PathwayHouse} />

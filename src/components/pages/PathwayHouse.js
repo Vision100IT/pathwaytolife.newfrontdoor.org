@@ -41,7 +41,7 @@ class PathwayHouse extends Component {
                                                     <div className="row">
                                                         <div className="col-md-3"><img src={pathwayHouseImg} alt="" className="img img-responsive ministryImg" /></div>
                                                         <div className="col-md-9"><p>Pathway House is an associated ministry of Pathway to Life.</p>
-                                                            <p>The facility currently hosts education and allied health professionals.</p>
+                                                            <p>The facility currently hosts psychology, tutoring, allied health professionals and counselling services.</p>
                                                             <p>Pathway House seeks to support people in the community, with a particular focus on people living with an Autism Spectrum Disorder (ASD).</p>
                                                         </div>
                                                     </div>
@@ -91,17 +91,6 @@ class PathwayHouse extends Component {
                                                         </div>
 
                                                         <div className="padding-top-30 col-md-12 pathwayHouseContact">
-                                                            <h5><strong>Rosie Butler</strong></h5>
-                                                            <h6>Paediatric Occupational Therapist</h6>
-                                                            <h6>North West Kids Paediatric Occupational Therapy</h6>
-                                                            <h6><strong>Mobile:</strong> 0435 900 096</h6>
-
-                                                            <p className="margin-top-10">
-                                                                <strong>Providing</strong> assessment and intervention for children and young adults experiencing difficulties with the following issues (sleeping, toileting, feeding, pretend play, handwriting, early school skills including drawing and cutting, responding to sensory input, attention and concentration, social skills and emotional regulation).
-                                                            </p>
-                                                        </div>
-
-                                                        <div className="padding-top-30 col-md-12 pathwayHouseContact">
                                                             <h5><strong>Anne Barker</strong></h5>
                                                             <h6>BA (Hons) Dip.Ed.</h6>
                                                             <h6><strong>Email:</strong> <a href="mailto:annepgeale65@gmail.com">annepgeale65@gmail.com</a></h6>
@@ -110,6 +99,12 @@ class PathwayHouse extends Component {
                                                                 <strong>Providing</strong> tutoring for students with learning issues including dyslexia.<br />
                                                                 Available Tuesdays, Wednesdays and Thursdays 3 to 5pm.
                                                             </p>
+                                                        </div>
+
+                                                        <div className="padding-top-30 col-md-12 pathwayHouseContact">
+                                                            <h5><strong>Northwest Counselling Service</strong></h5>
+                                                            <h6><strong>Website: </strong> <a href="https://www.northwestcounsellingservice.com.au/" rel="noreferrer noopener" target="_blank">northwestcounsellingservice.com.au</a></h6>
+                                                            <h6><strong>Mobile:</strong> 0439 901 961</h6>
                                                         </div>
 
                                                     </div>

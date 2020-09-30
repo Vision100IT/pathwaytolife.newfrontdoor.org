@@ -41,8 +41,6 @@ class MorningService extends Component {
                                         <img src={sundayServiceImg} alt="" className="img img-responsive padding-bottom-20" />
                                         <p>Join us on Sundays at 9:30am for our weekly service.</p>
 
-                                        <p>Pathway provides the option to join the service online via Zoom and information for this can be found through <a href="https://www.pathwaytolife.org.au/ContactUs">contacting the church</a> or visiting the <a href="https://www.facebook.com/PathwaytoLifeChurch/">Facebook page.</a></p>
-
                                         <p>Pre service <strong>prayer time</strong> starts at 9:10am.</p>
 
                                         <p>During the service our <strong>children's program</strong> Pathway Kids runs most Sundays for children aged 4 to Grade 6.<br />
@@ -53,15 +51,15 @@ class MorningService extends Component {
                                         <p>After the service all are welcome to share in <strong>morning tea</strong> and fellowship.</p>
 
                                         <p>If anyone would like to <strong>talk or pray</strong> with a church leader the opportunity is available immediately after the service.</p>
-                                        
+
                                         <div className="row padding-top-20">
-                                        <div className="col-sm-2 text-center"><img src={covidImg} alt="" className="img img-responsive ministryImg" /></div>
-                                        <div className="col-sm-10 padding-top-30">
-                                            <p>Amidst the current circumstances Pathway to Life is able to re-commence with the State Government restrictions and requirements being followed through our Covid-19 Safety Plan. Feel free to contact the church if you would like to view a copy of the plan.</p>
+                                            <div className="col-sm-2 text-center"><img src={covidImg} alt="" className="img img-responsive ministryImg" /></div>
+                                            <div className="col-sm-10 padding-top-30">
+                                                <p>Amidst the current circumstances Pathway to Life is able to re-commence with the State Government restrictions and requirements being followed through our Covid-19 Safety Plan. Feel free to contact the church if you would like to view a copy of the plan.</p>
+                                            </div>
                                         </div>
-                                        </div>
-                                        
-                                        
+
+
                                     </div>
 
 

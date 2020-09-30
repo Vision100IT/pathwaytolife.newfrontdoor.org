@@ -37,7 +37,7 @@ class Directory extends Component {
                                             <div className="node node-page clearfix">
                                                 <div className="content">
                                                     <div className="row">
-                                                        <div className="col-md-4 col-xs-12">
+                                                        <div className="col-md-4 col-sm-6 col-xs-12">
                                                             <h4>Pastor</h4>
                                                             Ettiene de Wilzem
                                                             <ul className="no-list-style">
@@ -45,14 +45,18 @@ class Directory extends Component {
                                                                 <li><a href="mailto:pastor@pathwaytolife.org.au">pastor@pathwaytolife.org.au</a></li>
                                                             </ul>
 
-                                                            <h4>Leadership</h4>
+                                                            <h4>Eldership</h4>
+                                                            Ettiene de Wilzem - Pastor
+                                                            <ul className="no-list-style">
+                                                                <li>0403 720 501</li>
+                                                                <li><a href="mailto:pastor@pathwaytolife.org.au">pastor@pathwaytolife.org.au</a></li>
+                                                            </ul>
                                                             Michael Vos - Chair
                                                             <ul className="no-list-style">
                                                                 <li>0417 255 797</li>
                                                                 <li><a href="mailto:michael_vos@hotmail.com">michael_vos@hotmail.com</a></li>
                                                             </ul>
-                                                            Simon De Haan<br />
-                                                            Mark de Jonge<br />
+                                                            Andrew Cowen<br />
                                                             Philip Kamphuis<br />
                                                             Ryan Niebuur
 
@@ -65,11 +69,18 @@ class Directory extends Component {
 
 
                                                         </div>
-                                                        <div className="col-md-4 col-xs-12">
+                                                        <div className="col-md-4 col-sm-6 col-xs-12">
+                                                            <h4>Leadership</h4>
+                                                            Sarah Groenewold<br />
+                                                            Grace Kamphuis<br />
+                                                            Ed Kentler
+
+
                                                             <h4>Deacons</h4>
                                                             Philip and Grace Kamphuis
                                                             <ul className="no-list-style">
                                                                 <li>0417 144 480</li>
+                                                                <li><a href="mailto:gettoit4@bigpond.net.au">gettoit4@bigpond.net.au</a></li>
                                                             </ul>
                                                             Leanne de Boer<br />
                                                             Marrie Groenewold<br />
@@ -82,8 +93,15 @@ class Directory extends Component {
                                                                 <li>0419 151 880</li>
                                                                 <li><a href="mailto:markjessdejonge@gmail.com">markjessdejonge@gmail.com</a></li>
                                                             </ul>
+
+                                                            <h4>Music</h4>
+                                                            Alf de Graaf
+                                                            <ul className="no-list-style">
+                                                                <li>0439 834 909</li>
+                                                                <li><a href="mailto:alphonse.degraaf@gmail.com">alphonse.degraaf@gmail.com</a></li>
+                                                            </ul>
                                                         </div>
-                                                        <div className="col-md-4 col-xs-12">
+                                                        <div className="col-md-4 col-sm-6 col-xs-12">
                                                             <h4>Secretary</h4>
                                                             Laura Cowen
                                                             <ul className="no-list-style">

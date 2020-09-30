@@ -42,7 +42,7 @@ class Facilities extends Component {
                                                     <div className="row padding-top-15">
                                                         <div className="col-md-3"><img src={pathwayHouseImg} alt="" className="img img-responsive ministryImg" /></div>
                                                         <div className="col-md-9"><p>Pathway House is an associated ministry of Pathway to Life.</p>
-                                                            <p>The facility currently hosts education and allied health professionals.</p>
+                                                            <p>The facility currently hosts psychology, tutoring, allied health professionals and counselling services.</p>
                                                             <p>Pathway House seeks to support people in the community, with a particular focus on people living with an Autism Spectrum Disorder (ASD).</p>
                                                             <p>To find out more about Pathway House and contact details for the people involved please visit <a href="/PathwayHouse">this page</a>.</p>
                                                         </div>
@@ -54,7 +54,7 @@ class Facilities extends Component {
                                                         <div className="col-md-9">
                                                             <p>The Community Hub is in association with Pathway House and an initiative of Pathway to Life Church.</p>
                                                             <p>The Hub is a place to come, connect and simply just be. This could mean for you learning a skill, enjoying a craft, playing a game, having coffee with friends or sharing a yummy brunch.</p>
-                                                            <p>Amidst the current circumstances The Community HUB is able to re-commence with the State Government restrictions and requirements being followed through The HUB's COVID-19 Plan, this can be viewed <a href="https://pathwayapi.newfrontdoor.org/sites/pathwayapi.newfrontdoor.org/files/HUB%20COVID-19%20Plan%20Term%203%202020.pdf">here</a>. The program for Term 3, 2020 can be found <a href="https://pathwayapi.newfrontdoor.org/sites/pathwayapi.newfrontdoor.org/files/The%20Community%20Hub%20Term%203%202020.pdf">here</a>.</p>
+                                                            <p>The Community HUB program for Term 4, 2020 will be coming soon!</p>
                                                         </div>
                                                     </div>
 

@@ -7,7 +7,6 @@ import fsmImg from '../../assets/img/fsm.png';
 import smallGroupImg from '../../assets/img/smallGroups.png';
 import prayerImg from '../../assets/img/prayer.png';
 import campImg from '../../assets/img/2017 Camp.jpg';
-import sheImg from '../../assets/img/she.png';
 
 class MinistryPrograms extends Component {
     render() {
@@ -55,8 +54,7 @@ class MinistryPrograms extends Component {
                                                     </ul>
 
 
-                                                    <img src={womenImg} alt="" className="img img-responsive ministryImg padding-top-15" />
-                                                    <img src={sheImg} alt="" className="img img-responsive ministryImg ministryImgSecond padding-top-15" /><br />
+                                                    <img src={womenImg} alt="" className="img img-responsive ministryImg padding-top-15" /><br />
                                                     Women <strong>encouraging</strong>, <strong>empowering</strong> and <strong>igniting</strong> for our church and community.<br /><br />
                                                     <strong>Coordinators</strong><br />
                                                     <div className="row">
@@ -67,13 +65,6 @@ class MinistryPrograms extends Component {
                                                                     <li>0467 376 767</li>
                                                                 </ul>
                                                                 Dana de Wilzem
-                                                            </div>
-                                                            <div className="col-md-6 padding-top-sm-15">
-                                                                Renske Hartog
-                                                                <ul className="no-list-style">
-                                                                    <li>0477 773 602</li>
-                                                                </ul>
-                                                                Grace Kamphuis
                                                             </div>
                                                         </div>
                                                     </div>
@@ -87,9 +78,6 @@ class MinistryPrograms extends Component {
                                                         <ul className="no-list-style">
                                                         <li>0408 319 931</li>
                                                     </ul>
-                                                    Ettiene de Wilzem<br />
-                                                    Ed Kentler<br />
-
 
                                                     <img src={kidsImg} alt="" className="img img-responsive ministryImg padding-top-15" /><br />
                                                     A Sunday service program <strong>encouraging</strong> and <strong>empowering</strong> our primary aged children.
@@ -152,10 +140,10 @@ class MinistryPrograms extends Component {
                                                 <ul className="no-list-style">
                                                     <li>0405 526 079</li>
                                                 </ul>
-                                                <strong>Pitstop Small Group</strong> &nbsp;<i className="icon ion-male size-24" /><br />
-                                                Ettiene de Wilzem
+                                                <strong>Bible, Prayer and Play</strong><br />
+                                                Dana de Wilzem
                                                 <ul className="no-list-style">
-                                                    <li>0403 720 501</li>
+                                                    <li>0452 216 430</li>
                                                 </ul>
                                                 <strong>Women’s Bible Study</strong><br />
                                                 Ruth Atkins
