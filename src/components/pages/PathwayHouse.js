@@ -19,7 +19,7 @@ class PathwayHouse extends Component {
                                     <div className="breadcrumbs">
                                         <a href="/">Home</a>
                                         <span className="delimiter">›</span>
-                                        <a href="/About">About</a>
+                                        <a href="/Facilities">Facilities</a>
                                         <span className="delimiter">›</span>
                                         <span title="" className="nolink">Pathway House</span>
                                     </div>
