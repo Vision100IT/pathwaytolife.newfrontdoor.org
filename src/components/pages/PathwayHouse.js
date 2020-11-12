@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import pathwayHouseImg from '../../assets/img/pathwayHouseLogo.png';
+import pathwayHouseBuilding from '../../assets/img/pathway-house.png';
 
 class PathwayHouse extends Component {
     render() {
@@ -35,8 +36,7 @@ class PathwayHouse extends Component {
                                 <div className="region region-content">
                                     <div id="block-system-main" className="block block-system">
                                         <div className="content">
-                                            <div className="node node-page clearfix">
-
+                                            <img src={pathwayHouseBuilding} alt="" className="img img-responsive padding-bottom-20" />
                                                 <div className="content">
                                                     <div className="row">
                                                         <div className="col-md-3"><img src={pathwayHouseImg} alt="" className="img img-responsive ministryImg" /></div>
@@ -106,10 +106,8 @@ class PathwayHouse extends Component {
                                                             <h6><strong>Website: </strong> <a href="https://www.northwestcounsellingservice.com.au/" rel="noreferrer noopener" target="_blank">northwestcounsellingservice.com.au</a></h6>
                                                             <h6><strong>Mobile:</strong> 0439 901 961</h6>
                                                         </div>
-
                                                     </div>
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
@@ -117,7 +115,6 @@ class PathwayHouse extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
             </section >
         );
     }

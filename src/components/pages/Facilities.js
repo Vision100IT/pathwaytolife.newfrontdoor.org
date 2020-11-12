@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import pathwayHouseImg from '../../assets/img/pathwayHouseLogo.png';
 import communityHubImg from '../../assets/img/The Community HUB.png';
+import facilitiesImg from '../../assets/img/facilities.png';
 
 class Facilities extends Component {
     render() {
@@ -36,8 +37,8 @@ class Facilities extends Component {
                                         <div className="node node-page clearfix">
                                             <div className="row">
                                                 <div className="col-md-12 col-xs-12 padding-top-30">
+                                                    <img src={facilitiesImg} alt="" className="img img-responsive padding-bottom-20" />
                                                     <p>Our facilities are available for use when suitable; chapel, hall, kitchen, meeting rooms and Pathway House.</p>
-
                                                     <h4>PATHWAY HOUSE</h4>
                                                     <div className="row padding-top-15">
                                                         <div className="col-md-3"><img src={pathwayHouseImg} alt="" className="img img-responsive ministryImg" /></div>
