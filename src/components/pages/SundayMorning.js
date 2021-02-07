@@ -55,8 +55,11 @@ class MorningService extends Component {
                                         <div className="row padding-top-20">
                                             <div className="col-sm-2 text-center"><img src={covidImg} alt="" className="img img-responsive ministryImg" /></div>
                                             <div className="col-sm-10 padding-top-30">
-                                                <p>Amidst the current circumstances Pathway to Life is able to re-commence with the State Government restrictions and requirements being followed through our Covid-19 Safety Plan. Feel free to contact the church if you would like to view a copy of the plan.</p>
+                                                <p>Amidst the current circumstances Pathway to Life is following State Government restrictions and requirements through our Covid-19 Safety Plan. Feel free to contact the church if you would like to view a copy of the plan.</p>
                                             </div>
+                                        </div>
+                                        <div className="row padding-top-20">
+                                            <p>Sunday morning services are available to be joined virtually via Zoom. Contact the church for more information.</p>
                                         </div>
 
 

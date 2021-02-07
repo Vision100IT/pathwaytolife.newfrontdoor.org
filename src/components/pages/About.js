@@ -51,8 +51,17 @@ class About extends Component {
 
                       <div className="row">
                         <div className="col-md-12 col-xs-12 padding-top-30">
-                          <a href="https://www.childsafe.org.au/" target="_blank" rel="noopener noreferrer"><img style={{ float: "left", paddingRight: "15px", paddingTop: "15px", maxWidth: "210px" }} src={childSafeImg} alt="" /> </a><p style={{ marginTop: "15px" }}>We value the safety of all children so we have implemented the <a href="https://www.childsafe.org.au/" target="_blank" rel="noopener noreferrer">ChildSafe</a> system for ensuring our kid's activities are safe for everyone.</p>
-
+                          <a href="https://www.childsafe.org.au/" target="_blank" rel="noopener noreferrer"><img style={{ float: "left", paddingRight: "15px", paddingTop: "15px", maxWidth: "210px" }} src={childSafeImg} alt="" /> </a><p style={{ marginTop: "25px" }}>We value the safety of all children so we have implemented the <a href="https://www.childsafe.org.au/" target="_blank" rel="noopener noreferrer">ChildSafe</a> system for ensuring our kid's activities are safe for everyone.</p>
+                        </div>
+                        <div className="col-md-12 col-xs-12 margin-left-30 padding-top-20">
+                          <p>
+                            <strong>Coordinator</strong><br />
+                            Dana de Wilzem
+                            <ul>
+                              <li>0452 216 430</li>
+                              <li><a href="mailto:danadewilzem@gmail.com">danadewilzem@gmail.com</a></li>
+                            </ul>
+                          </p>
                         </div>
                       </div>
 

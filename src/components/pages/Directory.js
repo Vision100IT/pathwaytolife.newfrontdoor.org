@@ -57,7 +57,6 @@ class Directory extends Component {
                                                                 <li><a href="mailto:michael_vos@hotmail.com">michael_vos@hotmail.com</a></li>
                                                             </ul>
                                                             Andrew Cowen<br />
-                                                            Philip Kamphuis<br />
                                                             Ryan Niebuur
 
                                                             <h4>Prayer Ministry</h4>
@@ -73,7 +72,8 @@ class Directory extends Component {
                                                             <h4>Leadership</h4>
                                                             Sarah Groenewold<br />
                                                             Grace Kamphuis<br />
-                                                            Ed Kentler
+                                                            Ed Kentler<br />
+                                                            Kristine Bull
 
 
                                                             <h4>Deacons</h4>

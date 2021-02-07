@@ -73,10 +73,10 @@ class MinistryPrograms extends Component {
 
                                                     <img src={youthImg} alt="" className="img img-responsive ministryImg padding-top-15 " /><br />
                                                     Regular Bible studies <strong>encouraging</strong> and <strong>empowering</strong> high schoolers and events with a focus on <strong>igniting</strong> people for Christ.<br /><br />
-                                                    <strong>Coordinators</strong><br />
-                                                    Ryan and Bianca Niebuur
+                                                    <strong>Coordinator</strong><br />
+                                                    Ryan Niebuur
                                                         <ul className="no-list-style">
-                                                        <li>0408 319 931</li>
+                                                        <li>0418 601 533</li>
                                                     </ul>
 
                                                     <img src={kidsImg} alt="" className="img img-responsive ministryImg padding-top-15" /><br />
@@ -106,7 +106,7 @@ class MinistryPrograms extends Component {
                                             </div>
                                             <div className="col-md-4 col-xs-12">
                                                 <img src={prayerImg} alt="" className="img img-responsive ministryImg padding-bottom-15 padding-top-15" /><br />
-                                                <strong>Turners Beach</strong><br />
+                                                <strong>Meeting via Zoom</strong><br />
                                                 John de Jonge
                                                 <ul className="no-list-style">
                                                     <li>0418 501 298</li>
@@ -135,7 +135,7 @@ class MinistryPrograms extends Component {
                                                 <ul className="no-list-style">
                                                     <li>(03) 6426 2205</li>
                                                 </ul>
-                                                <strong>Tuesday Night Weekly</strong><br />
+                                                <strong>The Clapham Sect</strong><br />
                                                 Ed Kentler
                                                 <ul className="no-list-style">
                                                     <li>0405 526 079</li>
