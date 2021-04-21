@@ -120,7 +120,7 @@ class MinistryPrograms extends Component {
                                                 <ul className="no-list-style">
                                                     <li>0418 501 298</li>
                                                 </ul>
-                                                The meeting can be joined via this <a href="https://us02web.zoom.us/j/84970206821?pwd=QUlWNGN3UmJ1MW9KRHorZldQUGtadz09" rel="noreferrer noopener" target="_blank">link</a>.<br /><br />
+                                                The meeting can be joined via <a href="https://us02web.zoom.us/j/84970206821?pwd=QUlWNGN3UmJ1MW9KRHorZldQUGtadz09" rel="noreferrer noopener" target="_blank">this link</a>.<br /><br />
 
                                                 <strong>Latrobe</strong><br />
                                                 John Groenewold
