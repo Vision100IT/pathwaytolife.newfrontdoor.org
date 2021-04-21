@@ -7,6 +7,7 @@ import fsmImg from '../../assets/img/fsm.png';
 import smallGroupImg from '../../assets/img/smallGroups.png';
 import prayerImg from '../../assets/img/prayer.png';
 import campImg from '../../assets/img/2017 Camp.jpg';
+import babysitImg from '../../assets/img/Babysit.png';
 
 class MinistryPrograms extends Component {
     render() {
@@ -101,6 +102,14 @@ class MinistryPrograms extends Component {
                                                         <li>0438 366 582</li>
                                                     </ul>
 
+                                                    <img src={babysitImg} alt="" className="img img-responsive ministryImg padding-top-15" /><br />
+                                                    During the Sunday morning service a creche is available for children under four years of age.<br /><br />
+                                                    <strong>Coordinator</strong><br />
+                                                    Heidi Kirwood
+                                                    <ul className="no-list-style">
+                                                        <li>0473 331 289</li>
+                                                    </ul>
+
                                                 </div>
 
                                             </div>
@@ -111,6 +120,7 @@ class MinistryPrograms extends Component {
                                                 <ul className="no-list-style">
                                                     <li>0418 501 298</li>
                                                 </ul>
+                                                The meeting can be joined via this <a href="https://us02web.zoom.us/j/84970206821?pwd=QUlWNGN3UmJ1MW9KRHorZldQUGtadz09" rel="noreferrer noopener" target="_blank">link</a>.<br /><br />
 
                                                 <strong>Latrobe</strong><br />
                                                 John Groenewold

@@ -59,7 +59,7 @@ class MorningService extends Component {
                                             </div>
                                         </div>
                                         <div className="row padding-top-20">
-                                            <p>Sunday morning services are available to be joined virtually via Zoom. Contact the church for more information.</p>
+                                            <p>Sunday morning services are available to be joined virtually via Zoom using <a href="https://us02web.zoom.us/j/84970206821?pwd=QUlWNGN3UmJ1MW9KRHorZldQUGtadz09" rel="noreferrer noopener" target="_blank">this link</a></p>
                                         </div>
 
 

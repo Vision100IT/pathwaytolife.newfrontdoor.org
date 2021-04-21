@@ -59,7 +59,7 @@ class Directory extends Component {
                                                             Andrew Cowen<br />
                                                             Ryan Niebuur
 
-                                                            <h4>Prayer Ministry</h4>
+                                                            <h4>SMS Prayer Network</h4>
                                                             Dini Groenewold
                                                             <ul className="no-list-style">
                                                                 <li>0400 019 473</li>
